@@ -1,3 +1,8 @@
+this repository mainly change the jax compliance of the new version on the whole project, it is now runnable
+and finished the whole process of the 10-10-1 neural network
+
+
+follow is the original readme:
 CRYPTANALYTIC EXTRACTION OF NEURAL NETWORK MODELS
 
 This repository contains an implementation of the model extraction attack in our CRYPTO'20 paper
