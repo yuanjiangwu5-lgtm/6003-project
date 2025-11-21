@@ -1,0 +1,3924 @@
+Loaded ground-truth model from models/42_10-15-15-1.npz
+Optimizer backend for refine_precision: optax (shim)
+START EXTRACTION ATTACK
+
+Start running critical point search to find neurons on layer 0
+At this iteration I have 0 critical points
+Gathering 45 critical points
+Start another sweep
+Total intersections found 27
+delta queries 0
+Up to 1 of 45
+Up to 2 of 45
+Up to 3 of 45
+Up to 4 of 45
+Up to 5 of 45
+Up to 6 of 45
+Up to 7 of 45
+Up to 8 of 45
+Up to 9 of 45
+Up to 10 of 45
+Up to 11 of 45
+Up to 12 of 45
+Up to 13 of 45
+Up to 14 of 45
+Up to 15 of 45
+Up to 16 of 45
+Up to 17 of 45
+Up to 18 of 45
+Up to 19 of 45
+Up to 20 of 45
+Up to 21 of 45
+Up to 22 of 45
+Up to 23 of 45
+Up to 24 of 45
+Up to 25 of 45
+Up to 26 of 45
+Up to 27 of 45
+Start another sweep
+Total intersections found 27
+delta queries 0
+Up to 28 of 45
+Up to 29 of 45
+Up to 30 of 45
+Up to 31 of 45
+Up to 32 of 45
+Up to 33 of 45
+Up to 34 of 45
+Up to 35 of 45
+Up to 36 of 45
+Up to 37 of 45
+Up to 38 of 45
+Up to 39 of 45
+Up to 40 of 45
+Up to 41 of 45
+Up to 42 of 45
+Up to 43 of 45
+Up to 44 of 45
+Up to 45 of 45
+Query count after that search: 0
+And now up to  45 critical points
+After filtering duplicates we're down to  45 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.04834914207458496
+Graph search found 11 different components with the following counts [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+After re-doing the graph, the component counts is 11 with items [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(35), 3]
+The guessed error in the computation is 4.1780467974206204e-13 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 1 with indexs [4, np.int64(28)]
+The guessed error in the computation is 2.9500912129831747e-11 with 2 witnesses
+Normalize on axis 5
+Don't add it to the set
+
+
+On component 2 with indexs [8, np.int64(39)]
+The guessed error in the computation is 6.038641808814305e-13 with 2 witnesses
+Normalize on axis 6
+Don't add it to the set
+
+
+On component 3 with indexs [np.int64(27), 11]
+The guessed error in the computation is 3.780364909999889e-12 with 2 witnesses
+Normalize on axis 7
+Don't add it to the set
+
+
+On component 4 with indexs [np.int64(36), 13]
+The guessed error in the computation is 2.909181576193909e-12 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 5 with indexs [np.int64(30), 15]
+The guessed error in the computation is 9.519052213136092e-13 with 2 witnesses
+Normalize on axis 9
+Don't add it to the set
+
+
+On component 6 with indexs [16, np.int64(32)]
+The guessed error in the computation is 1.5195518454635959e-12 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 7 with indexs [18, np.int64(43)]
+The guessed error in the computation is 1.6203149932891847e-12 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 8 with indexs [np.int64(40), 21]
+The guessed error in the computation is 5.981604100924187e-13 with 2 witnesses
+Normalize on axis 6
+Don't add it to the set
+
+
+On component 9 with indexs [24, np.int64(44)]
+The guessed error in the computation is 7.15270052388528e-10 with 2 witnesses
+Normalize on axis 2
+Don't add it to the set
+
+
+On component 10 with indexs [26, np.int64(29)]
+The guessed error in the computation is 2.310193703003449e-12 with 2 witnesses
+Normalize on axis 8
+Don't add it to the set
+We have not explored all neurons. Do more random search 0 0 15
+Graph solving failed; get more points
+At this iteration I have 45 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Start another sweep
+Total intersections found 30
+delta queries 0
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  60 critical points
+After filtering duplicates we're down to  60 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.014553070068359375
+Graph search found 15 different components with the following counts [3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+After re-doing the graph, the component counts is 15 with items [3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(59), 4, np.int64(28)]
+The guessed error in the computation is 1.5930392139023447e-05 with 3 witnesses
+Normalize on axis 5
+
+
+On component 1 with indexs [np.int64(50), 12, np.int64(55)]
+The guessed error in the computation is 6.39492601421654e-06 with 3 witnesses
+Normalize on axis 2
+
+
+On component 2 with indexs [16, np.int64(32), np.int64(54)]
+The guessed error in the computation is 1.9659066475830045e-06 with 3 witnesses
+Normalize on axis 6
+
+
+On component 3 with indexs [np.int64(57), 26, np.int64(29)]
+The guessed error in the computation is 4.4446850314822095e-06 with 3 witnesses
+Normalize on axis 0
+
+
+On component 4 with indexs [np.int64(35), 3]
+The guessed error in the computation is 4.1780467974206204e-13 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 5 with indexs [5, np.int64(47)]
+The guessed error in the computation is 3.622265681846315e-12 with 2 witnesses
+Normalize on axis 6
+Don't add it to the set
+
+
+On component 6 with indexs [np.int64(52), 7]
+The guessed error in the computation is 3.1657914664965467 with 2 witnesses
+Component size less than 5 with high error; this isn't enough to be sure
+
+
+On component 7 with indexs [8, np.int64(39)]
+The guessed error in the computation is 6.038641808814305e-13 with 2 witnesses
+Normalize on axis 6
+Don't add it to the set
+
+
+On component 8 with indexs [9, np.int64(51)]
+The guessed error in the computation is 1.8310353233630394e-12 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 9 with indexs [np.int64(27), 11]
+The guessed error in the computation is 3.780364909999889e-12 with 2 witnesses
+Normalize on axis 7
+Don't add it to the set
+
+
+On component 10 with indexs [np.int64(36), 13]
+The guessed error in the computation is 2.909181576193909e-12 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 11 with indexs [np.int64(30), 15]
+The guessed error in the computation is 9.519052213136092e-13 with 2 witnesses
+Normalize on axis 9
+Don't add it to the set
+
+
+On component 12 with indexs [18, np.int64(43)]
+The guessed error in the computation is 1.6203149932891847e-12 with 2 witnesses
+Normalize on axis 4
+Don't add it to the set
+
+
+On component 13 with indexs [np.int64(40), 21]
+The guessed error in the computation is 5.981604100924187e-13 with 2 witnesses
+Normalize on axis 6
+Don't add it to the set
+
+
+On component 14 with indexs [24, np.int64(44)]
+The guessed error in the computation is 7.15270052388528e-10 with 2 witnesses
+Normalize on axis 2
+Don't add it to the set
+We have not explored all neurons. Do more random search 4 0 15
+Graph solving failed; get more points
+Got partial solution with shape (4, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+At this iteration I have 60 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  75 critical points
+After filtering duplicates we're down to  75 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.015201091766357422
+Graph search found 15 different components with the following counts [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2]
+After re-doing the graph, the component counts is 15 with items [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(73), np.int64(35), 3]
+The guessed error in the computation is 3.8775237009847086e-06 with 3 witnesses
+Normalize on axis 4
+
+
+On component 1 with indexs [np.int64(59), 4, np.int64(28)]
+The guessed error in the computation is 1.5930392139023447e-05 with 3 witnesses
+Normalize on axis 5
+
+
+On component 2 with indexs [np.int64(74), 5, np.int64(47)]
+The guessed error in the computation is 3.836978065774321e-06 with 3 witnesses
+Normalize on axis 2
+
+
+On component 3 with indexs [np.int64(52), np.int64(62), 7]
+The guessed error in the computation is 1.5884378429170676e-05 with 3 witnesses
+Normalize on axis 3
+
+
+On component 4 with indexs [8, np.int64(72), np.int64(39)]
+The guessed error in the computation is 6.819134231464408e-06 with 3 witnesses
+Normalize on axis 8
+
+
+On component 5 with indexs [9, np.int64(66), np.int64(51)]
+The guessed error in the computation is 6.853291396151373e-06 with 3 witnesses
+Normalize on axis 8
+
+
+On component 6 with indexs [np.int64(27), 11, np.int64(63)]
+The guessed error in the computation is 1.6793292645395086e-05 with 3 witnesses
+Normalize on axis 7
+
+
+On component 7 with indexs [np.int64(50), 12, np.int64(55)]
+The guessed error in the computation is 6.39492601421654e-06 with 3 witnesses
+Normalize on axis 2
+
+
+On component 8 with indexs [np.int64(64), np.int64(36), 13]
+The guessed error in the computation is 6.978056309794867e-07 with 3 witnesses
+Normalize on axis 7
+
+
+On component 9 with indexs [16, np.int64(32), np.int64(54)]
+The guessed error in the computation is 1.9659066475830045e-06 with 3 witnesses
+Normalize on axis 6
+
+
+On component 10 with indexs [18, np.int64(43), np.int64(70)]
+The guessed error in the computation is 7.293452548073898e-06 with 3 witnesses
+Normalize on axis 7
+
+
+On component 11 with indexs [np.int64(57), 26, np.int64(29)]
+The guessed error in the computation is 4.4446850314822095e-06 with 3 witnesses
+Normalize on axis 0
+
+
+On component 12 with indexs [np.int64(30), 15]
+The guessed error in the computation is 9.519052213136092e-13 with 2 witnesses
+Normalize on axis 9
+Don't add it to the set
+
+
+On component 13 with indexs [np.int64(40), 21]
+The guessed error in the computation is 5.981604100924187e-13 with 2 witnesses
+Normalize on axis 6
+Don't add it to the set
+
+
+On component 14 with indexs [24, np.int64(44)]
+The guessed error in the computation is 7.15270052388528e-10 with 2 witnesses
+Normalize on axis 2
+Don't add it to the set
+We have not explored all neurons. Do more random search 12 0 15
+Graph solving failed; get more points
+Got partial solution with shape (12, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+hidden (3, 10)
+At this iteration I have 75 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Start another sweep
+Total intersections found 29
+delta queries 0
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  90 critical points
+After filtering duplicates we're down to  90 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.015128135681152344
+Graph search found 15 different components with the following counts [4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+After re-doing the graph, the component counts is 15 with items [4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(80), np.int64(84), np.int64(30), 15]
+The guessed error in the computation is 6.578749655483662e-06 with 4 witnesses
+Normalize on axis 9
+
+
+On component 1 with indexs [np.int64(40), np.int64(75), np.int64(85), 21]
+The guessed error in the computation is 3.2435997398688743e-06 with 4 witnesses
+Normalize on axis 6
+
+
+On component 2 with indexs [np.int64(73), np.int64(35), 3]
+The guessed error in the computation is 3.8775237009847086e-06 with 3 witnesses
+Normalize on axis 4
+
+
+On component 3 with indexs [np.int64(59), 4, np.int64(28)]
+The guessed error in the computation is 1.5930392139023447e-05 with 3 witnesses
+Normalize on axis 5
+
+
+On component 4 with indexs [np.int64(74), 5, np.int64(47)]
+The guessed error in the computation is 3.836978065774321e-06 with 3 witnesses
+Normalize on axis 2
+
+
+On component 5 with indexs [np.int64(52), np.int64(62), 7]
+The guessed error in the computation is 1.5884378429170676e-05 with 3 witnesses
+Normalize on axis 3
+
+
+On component 6 with indexs [8, np.int64(72), np.int64(39)]
+The guessed error in the computation is 6.819134231464408e-06 with 3 witnesses
+Normalize on axis 8
+
+
+On component 7 with indexs [9, np.int64(66), np.int64(51)]
+The guessed error in the computation is 6.853291396151373e-06 with 3 witnesses
+Normalize on axis 8
+
+
+On component 8 with indexs [np.int64(27), 11, np.int64(63)]
+The guessed error in the computation is 1.6793292645395086e-05 with 3 witnesses
+Normalize on axis 7
+
+
+On component 9 with indexs [np.int64(50), 12, np.int64(55)]
+The guessed error in the computation is 6.39492601421654e-06 with 3 witnesses
+Normalize on axis 2
+
+
+On component 10 with indexs [np.int64(64), np.int64(36), 13]
+The guessed error in the computation is 6.978056309794867e-07 with 3 witnesses
+Normalize on axis 7
+
+
+On component 11 with indexs [16, np.int64(32), np.int64(54)]
+The guessed error in the computation is 1.9659066475830045e-06 with 3 witnesses
+Normalize on axis 6
+
+
+On component 12 with indexs [18, np.int64(43), np.int64(70)]
+The guessed error in the computation is 7.293452548073898e-06 with 3 witnesses
+Normalize on axis 7
+
+
+On component 13 with indexs [24, np.int64(82), np.int64(44)]
+The guessed error in the computation is 7.311104611690267e-06 with 3 witnesses
+Normalize on axis 1
+
+
+On component 14 with indexs [np.int64(57), 26, np.int64(29)]
+The guessed error in the computation is 4.4446850314822095e-06 with 3 witnesses
+Normalize on axis 0
+At this point, we just assume the neuron must be dead
+Successfully returning a solution attempt.
+
+Number of critical points per cluster [4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 12 with error 5.86405724364395e-08 ratio -0.31624995612053797
+Bias check [-1.83734352e-06]
+Neuron 1 maps on to neuron 6 with error 3.3711814337372956e-08 ratio 0.05839600767716997
+Bias check [8.64854597e-07]
+Neuron 2 maps on to neuron 3 with error 3.5246161442623365e-08 ratio -0.33682892816339727
+Bias check [8.5278342e-07]
+Neuron 3 maps on to neuron 11 with error 3.371284694439237e-08 ratio 0.27796374448940725
+Bias check [5.99014742e-07]
+Neuron 4 maps on to neuron 9 with error 3.293337308497485e-08 ratio 0.00867270625596531
+Bias check [-4.63654212e-07]
+Neuron 5 maps on to neuron 7 with error 9.445363717562418e-08 ratio -0.18463636567607772
+Bias check [-3.85521991e-06]
+Neuron 6 maps on to neuron 1 with error 5.107075208904738e-08 ratio -0.23587837726913152
+Bias check [2.8056796e-06]
+Neuron 7 maps on to neuron 13 with error 6.565449276168448e-08 ratio 0.10384481188596985
+Bias check [-2.68017119e-06]
+Neuron 8 maps on to neuron 8 with error 5.124967089708904e-08 ratio 0.5983772320897989
+Bias check [6.49709589e-05]
+Neuron 9 maps on to neuron 4 with error 6.937332358599573e-08 ratio 0.1609211486642409
+Bias check [-3.3987776e-06]
+Neuron 10 maps on to neuron 2 with error 2.5264014538684107e-08 ratio -0.004406451722953172
+Bias check [-3.424087e-07]
+Neuron 11 maps on to neuron 0 with error 4.6032159836845264e-08 ratio 0.012214684970735884
+Bias check [1.2063688e-06]
+Neuron 12 maps on to neuron 5 with error 4.1425562914719544e-08 ratio -0.4837396196648003
+Bias check [1.0620529e-06]
+Neuron 13 maps on to neuron 10 with error 1.883009299520388e-08 ratio -0.0004547510333514042
+Bias check [2.70310691e-06]
+Neuron 14 maps on to neuron 14 with error 4.144465736922093e-08 ratio -0.44004320896952853
+Bias check [-1.22197339e-06]
+Improve the extracted neuron number 0
+4.176083973374476
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 2.317392500117421e-09 1000000.0
+Compare 6.443992712945601e-05 1.2350938050076365e-09
+soln [-24.74023817 -21.63822562  16.96273685  28.0264317   28.28570021
+ -18.02973937  21.4243947  144.30133945 106.9606833  129.20612488]
+Improve the extracted neuron number 1
+24.25870603182637
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 9.094947017729282e-12 1000000.0
+Compare 0.00019636798020883361 9.094947017729282e-12
+soln [ 7.54523079 -1.92359496  1.07407144 -1.58472771 -0.61696002  2.73249177
+  1.19920278 -1.24116565 -4.61848871  6.55517429]
+Improve the extracted neuron number 2
+6.103460793243598
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 3.2014213502407074e-10 1000000.0
+Compare 4.316186879282924e-05 2.546585164964199e-10
+soln [-114.7901439    62.18127638   66.46563705  -14.57627463   87.11041744
+  -11.55029715   17.35746922  -19.68689054   98.21479031  -39.74183889]
+Improve the extracted neuron number 3
+6.289044332057931
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 2.560227585490793e-10 1000000.0
+Compare 5.898748500499096e-05 1.4097167877480388e-10
+soln [-19.52483662 -58.03753599   4.76758348 -39.27719609  91.73069741
+  58.7176839  -18.79941928  -1.15337631   3.2121379  -74.05763598]
+Improve the extracted neuron number 4
+153.15069221698707
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.1641532182693481e-10 1000000.0
+Compare 0.0012455100149963982 9.367795428261161e-11
+soln [-14.10050967  14.56573197  -0.9235948  -33.83868545  18.36444762
+  22.37862649  10.68449009   8.15228355  10.8079454   -7.63285942]
+Improve the extracted neuron number 5
+12.826367002650699
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 99 critical points
+ITERATION 0 OF 100
+quality 1.1441443348303437e-09 1000000.0
+Compare 0.00029203883190120905 9.640643838793039e-11
+soln [ -6.18142108  -1.02509338  13.86535195   5.38392195  -9.15088282
+ -12.47828152  -1.27125455  -1.86842373   4.63621007  13.1953147 ]
+Improve the extracted neuron number 6
+9.349047978485553
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 99 critical points
+ITERATION 0 OF 100
+quality 3.3014657674357295e-10 1000000.0
+Compare 0.00010481266679107648 1.7007550923153758e-10
+soln [-1.97290008 -8.9577561  14.15308011 -3.62249449 -1.54020387  1.61802472
+  9.79694674 15.12442287 -7.5926838  -6.60585688]
+Improve the extracted neuron number 7
+19.998940024964654
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 7.275957614183426e-11 1000000.0
+Compare 0.0003062825997233176 7.275957614183426e-11
+soln [ 59.033226    14.38012633   2.5519634   -8.387109   -46.95993083
+  18.36332614  25.7422466  -38.48133587 -12.26696585 -19.16009812]
+Improve the extracted neuron number 8
+3.4480911458695767
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 5.82986103836447e-10 1000000.0
+Compare 9.971987753942813e-05 1.7280399333685637e-10
+soln [-13.21667432 -32.67257649 -29.91595775  14.28707156   7.56391969
+ -11.34715564  -3.51835993  49.87233171   4.31882734   5.25147443]
+Improve the extracted neuron number 9
+14.909692043965258
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.7462298274040222e-09 1000000.0
+Compare 0.0002453651919722688 9.458744898438454e-10
+soln [ -65.63971983 -240.57136801  107.8016941  -300.53421337  158.14843719
+ -339.60942212  -65.5499486   -29.13006345   97.73675568 -202.56838285]
+Improve the extracted neuron number 10
+390.3419821211061
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.8098944565281272e-10 1000000.0
+Compare 0.002948302753708276 9.822542779147625e-11
+soln [ -9.67521628  -6.81482627   1.23838562 -20.54522943  19.74560297
+   6.64629363  15.75454575   0.28885752 -27.60165102   4.44250025]
+Improve the extracted neuron number 11
+131.52489407739307
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 3.2014213502407074e-10 1000000.0
+Compare 0.0013107138532291174 2.764863893389702e-10
+soln [ -24.28980724   28.28122487   39.46659517   36.02993462   21.4015732
+  -48.74946751   -2.88693051  -28.46775222  -46.72487491 -103.40495178]
+Improve the extracted neuron number 12
+5.378430104388217
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 9.185896487906575e-11 1000000.0
+Compare 4.113152794005259e-05 9.185896487906575e-11
+soln [ -2.71889833   9.98735856  -8.64089991   1.78045639   9.777116
+  -1.5486419  -10.20769009 -14.53322214  16.21125611   2.76037748]
+Improve the extracted neuron number 13
+3577.8768327724083
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 4.263256414560601e-11 1000000.0
+Compare 0.020391219528391957 4.263256414560601e-11
+soln [-1.85556276 -0.00910484  2.57128434  5.56904315  1.5242854  -2.03835386
+ -6.77867693  1.20561115 -7.49502116  3.52940669]
+Improve the extracted neuron number 14
+5.7773601622312825
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 3.9108272176235914e-11 1000000.0
+Compare 5.558967753405142e-05 3.9108272176235914e-11
+soln [11.01110878  2.12451631 10.3524289  -6.96809428 16.14362005 -2.21175153
+  1.10176396 -4.44405372  5.12243635 -4.13536772]
+HAVE [[-2.47402382e+01  7.54523079e+00 -1.14790144e+02 -1.95248366e+01
+  -1.41005097e+01 -6.18142108e+00 -1.97290008e+00  5.90332260e+01
+  -1.32166743e+01 -6.56397198e+01 -9.67521628e+00 -2.42898072e+01
+  -2.71889833e+00 -1.85556276e+00  1.10111088e+01]
+ [-2.16382256e+01 -1.92359496e+00  6.21812764e+01 -5.80375360e+01
+   1.45657320e+01 -1.02509338e+00 -8.95775610e+00  1.43801263e+01
+  -3.26725765e+01 -2.40571368e+02 -6.81482627e+00  2.82812249e+01
+   9.98735856e+00 -9.10484079e-03  2.12451631e+00]
+ [ 1.69627368e+01  1.07407144e+00  6.64656370e+01  4.76758348e+00
+  -9.23594799e-01  1.38653519e+01  1.41530801e+01  2.55196340e+00
+  -2.99159577e+01  1.07801694e+02  1.23838562e+00  3.94665952e+01
+  -8.64089991e+00  2.57128434e+00  1.03524289e+01]
+ [ 2.80264317e+01 -1.58472771e+00 -1.45762746e+01 -3.92771961e+01
+  -3.38386855e+01  5.38392195e+00 -3.62249449e+00 -8.38710900e+00
+   1.42870716e+01 -3.00534213e+02 -2.05452294e+01  3.60299346e+01
+   1.78045639e+00  5.56904315e+00 -6.96809428e+00]
+ [ 2.82857002e+01 -6.16960024e-01  8.71104174e+01  9.17306974e+01
+   1.83644476e+01 -9.15088282e+00 -1.54020387e+00 -4.69599308e+01
+   7.56391969e+00  1.58148437e+02  1.97456030e+01  2.14015732e+01
+   9.77711600e+00  1.52428540e+00  1.61436200e+01]
+ [-1.80297394e+01  2.73249177e+00 -1.15502971e+01  5.87176839e+01
+   2.23786265e+01 -1.24782815e+01  1.61802472e+00  1.83633261e+01
+  -1.13471556e+01 -3.39609422e+02  6.64629363e+00 -4.87494675e+01
+  -1.54864190e+00 -2.03835386e+00 -2.21175153e+00]
+ [ 2.14243947e+01  1.19920278e+00  1.73574692e+01 -1.87994193e+01
+   1.06844901e+01 -1.27125455e+00  9.79694674e+00  2.57422466e+01
+  -3.51835993e+00 -6.55499486e+01  1.57545458e+01 -2.88693051e+00
+  -1.02076901e+01 -6.77867693e+00  1.10176396e+00]
+ [ 1.44301339e+02 -1.24116565e+00 -1.96868905e+01 -1.15337631e+00
+   8.15228355e+00 -1.86842373e+00  1.51244229e+01 -3.84813359e+01
+   4.98723317e+01 -2.91300635e+01  2.88857517e-01 -2.84677522e+01
+  -1.45332221e+01  1.20561115e+00 -4.44405372e+00]
+ [ 1.06960683e+02 -4.61848871e+00  9.82147903e+01  3.21213790e+00
+   1.08079454e+01  4.63621007e+00 -7.59268380e+00 -1.22669658e+01
+   4.31882734e+00  9.77367557e+01 -2.76016510e+01 -4.67248749e+01
+   1.62112561e+01 -7.49502116e+00  5.12243635e+00]
+ [ 1.29206125e+02  6.55517429e+00 -3.97418389e+01 -7.40576360e+01
+  -7.63285942e+00  1.31953147e+01 -6.60585688e+00 -1.91600981e+01
+   5.25147443e+00 -2.02568383e+02  4.44250025e+00 -1.03404952e+02
+   2.76037748e+00  3.52940669e+00 -4.13536772e+00]] [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]
+Query count 0
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 12 with error 4.427469581360696e-15 ratio -0.002447639126298895
+Bias check 3.1718985077366924e-14
+Neuron 1 maps on to neuron 6 with error 1.1042180729124841e-15 ratio 0.048695690930198474
+Bias check 3.087946565116795e-13
+Neuron 2 maps on to neuron 3 with error 1.2563067444717556e-15 ratio -0.0038666892796894855
+Bias check -1.4001820536346798e-14
+Neuron 3 maps on to neuron 11 with error 1.5454512140011162e-15 ratio 0.004733901936244175
+Bias check -3.1669458722127786e-13
+Neuron 4 maps on to neuron 9 with error 2.2642533965627305e-15 ratio -0.009390164167134774
+Bias check -4.45855158348607e-13
+Neuron 5 maps on to neuron 7 with error 5.4367027065145456e-15 ratio -0.03429402783569205
+Bias check -5.613565168260948e-13
+Neuron 6 maps on to neuron 1 with error 6.470526417862313e-15 ratio 0.03106653318095937
+Bias check 2.868320164717275e-12
+Neuron 7 maps on to neuron 13 with error 7.840454872567049e-16 ratio -0.008465402759831743
+Bias check -2.2013640910145682e-13
+Neuron 8 maps on to neuron 8 with error 2.2768261535952693e-15 ratio 0.011998180299879861
+Bias check -1.1746853489924547e-13
+Neuron 9 maps on to neuron 4 with error 2.6741271846881965e-15 ratio 0.0014927516469410737
+Bias check 1.0854680869420985e-12
+Neuron 10 maps on to neuron 2 with error 2.9810031202663273e-15 ratio -0.01525477320021909
+Bias check -6.608324998325088e-13
+Neuron 11 maps on to neuron 0 with error 2.1386649299255605e-15 ratio -0.0042310296557527705
+Bias check 3.159798811491754e-14
+Neuron 12 maps on to neuron 5 with error 4.0090523525521215e-15 ratio 0.03328509256337671
+Bias check 9.39651134679309e-13
+Neuron 13 maps on to neuron 10 with error 4.787920883456255e-15 ratio 0.04994553327463652
+Bias check -9.677258994145177e-13
+Neuron 14 maps on to neuron 14 with error 2.4994633929450406e-15 ratio -0.03996356949215267
+Bias check -5.100087019371813e-14
+Start looking for critical point
+Init
+<generator object sweep_for_critical_points at 0x15ec0fba0>
+Start another sweep
+Total intersections found 30
+delta queries 0
+Tick
+Check if the critical point is on the next layer
+Hidden think []
+[ -604.89930074    49.21014989 -1508.43684907  -240.26848177
+  -379.40783338   -18.83894635   192.92150975   184.44775953
+   178.15208734 -5118.27355369   148.45545722   635.11451752
+  -317.19038605   114.65940121  -166.9041372 ]
+high 1.0972387702790622
+Correctly found 1
+Correctly found 0
+high 2.673032503766534
+Correctly found 1
+Correctly found 0
+high 3.1516253214174914
+Correctly found 1
+Correctly found 0
+high 3.77260812567333
+Correctly found 1
+Correctly found 0
+high 3.1298512986281413
+Correctly found 1
+Correctly found 0
+high 2.3126132981209016
+Correctly found 1
+Correctly found 0
+high 2.5323356712158125
+Correctly found 1
+Correctly found 0
+high 3.9349436648197287
+Correctly found 1
+Correctly found 0
+high 5.178992655847365
+Correctly found 1
+Correctly found 0
+high 8.797708073189188
+Correctly found 1
+Correctly found 0
+Found layer N point at  [ -0.02143149  -2.36286681   2.20941795   9.66978571  -2.5363424
+   4.20432411   2.56659854   3.1956196  -11.37099939  -0.90065533] False
+Done looking for critical point
+============================================================
+RESTART SEARCH 0 -10
+[ -0.02143149  -2.36286681   2.20941795   9.66978571  -2.5363424
+   4.20432411   2.56659854   3.1956196  -11.37099939  -0.90065533]
+
+
+
+--------------------------------------------------
+Number of collected points 0
+Choose a new direction to travel in
+Progress 0.0%
+Counts on each side of each neuron
+[0 1 0 0 0 0 1 1 1 0 1 1 0 1 0]
+[1 0 1 1 1 1 0 0 0 1 0 0 1 0 1]
+Try to explore the other side of neuron 0
+Changing 0 to flip sides because mean is 0.0
+Can't go anywhere at all
+Value 0.01819683034193531
+Distance we need to step: 3.3242014646517375
+Now try to find the continuation direction
+	Start the box step with size 0
+	Try stepping away 0
+	Try stepping away 1
+	Try stepping away 2
+	Try stepping away 3
+	Try stepping away 4
+	Try stepping away 5
+	Try stepping away 6
+	Try stepping away 7
+	Try stepping away 8
+	Move to 8666 versus 8666 False
+	Move to 25050 versus 8666 False
+	Succeeded
+	Move to 25050 versus 8666 True
+	Move to 25050 versus 8666 True
+Value at multiple: 0.0
+Value at success: 10.770081941642616
+polytope at initial 25050
+polytope at 0.5 25050 0
+polytope at 0.75 25050 0
+polytope at 0.875 25050 0
+polytope at 0.9375 25050 0
+polytope at 0.96875 25050 0
+polytope at 0.984375 25050 0
+polytope at 0.9921875 25050 0
+GO TO 0.9921875
+Value at moved success: 5.34297033823691
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 2
+Choose a new direction to travel in
+Progress 6.0%
+Counts on each side of each neuron
+[1 2 0 0 0 0 2 2 2 0 2 2 0 2 0]
+[1 0 2 2 2 2 0 0 0 2 0 0 2 0 2]
+Try to explore the other side of neuron 1
+Changing 5 to flip sides because mean is 0.0
+Value 0.0019106235993602283
+Choose a new direction to travel in
+Progress 6.0%
+Counts on each side of each neuron
+[1 2 0 0 0 0 2 2 2 0 2 2 0 2 0]
+[1 0 2 2 2 2 0 0 0 2 0 0 2 0 2]
+Try to explore the other side of neuron 1
+Changing 5 to flip sides because mean is 0.0
+Can't go anywhere at all
+Value 0.00195182626319923
+Distance we need to step: 0.5608704051340476
+Now try to find the continuation direction
+	Start the box step with size 7
+	Try stepping away 7
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 7
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 5
+	Try stepping away 5
+	Try stepping away 6
+	Try stepping away 7
+	Move to 25050 versus 25050 True
+	Move to 25050 versus 25050 False
+	Move to 25050 versus 25050 True
+	Move to 25562 versus 25050 False
+	Succeeded
+Value at multiple: -7.105427357601002e-15
+Value at success: 2.8515202189991022
+polytope at initial 25562
+polytope at 0.5 25562 0
+polytope at 0.75 25562 0
+polytope at 0.875 25562 0
+polytope at 0.9375 25562 0
+polytope at 0.96875 25562 0
+polytope at 0.984375 25562 0
+polytope at 0.9921875 25562 0
+GO TO 0.9921875
+Value at moved success: 1.4146213586440943
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 4
+Probably something is borked
+d^2(e(i))+d^2(e(j)) != d^2(e(i)+e(j)) 0.1656158774565597 0.0003365270728750147
+Failed to compute ratio at start point. Something very bad happened.
+Counts
+[2 4 0 0 0 0 4 4 4 0 4 4 0 4 0]
+[2 0 4 4 4 4 0 0 0 4 0 0 4 0 4]
+SHOULD BE DONE? False False
+============================================================
+RESTART SEARCH 4 0
+[ -0.02143149  -2.36286681   2.20941795   9.66978571  -2.5363424
+   4.20432411   2.56659854   3.1956196  -11.37099939  -0.90065533]
+
+
+
+--------------------------------------------------
+Number of collected points 0
+Choose a new direction to travel in
+Progress 6.0%
+Counts on each side of each neuron
+[1 3 0 0 0 0 3 3 3 0 3 3 0 3 0]
+[2 0 3 3 3 3 0 0 0 3 0 0 3 0 3]
+Try to explore the other side of neuron 1
+Changing 5 to flip sides because mean is 0.0
+Value 0.002084317264298363
+Choose a new direction to travel in
+Progress 6.0%
+Counts on each side of each neuron
+[1 3 0 0 0 0 3 3 3 0 3 3 0 3 0]
+[2 0 3 3 3 3 0 0 0 3 0 0 3 0 3]
+Try to explore the other side of neuron 1
+Changing 5 to flip sides because mean is 0.0
+Value 0.0020003253159170953
+Distance we need to step: 0.9417941274194426
+Now try to find the continuation direction
+	Start the box step with size 0
+	Try stepping away 0
+	Try stepping away 1
+	Try stepping away 2
+	Try stepping away 3
+	Try stepping away 4
+	Try stepping away 5
+	Try stepping away 6
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Move to 9178 versus 8666 False
+	Succeeded
+	Move to 8666 versus 8666 False
+	Move to 8666 versus 8666 True
+	Move to 8666 versus 8666 True
+Value at multiple: 3.552713678800501e-15
+Value at success: 6.3755887165873695
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 2
+Choose a new direction to travel in
+Progress 13.0%
+Counts on each side of each neuron
+[1 4 0 0 0 1 4 4 4 0 4 4 0 4 0]
+[3 0 4 4 4 3 0 0 0 4 0 0 4 0 4]
+Try to explore the other side of neuron 1
+Changing 1 to flip sides because mean is 0.8
+Can't go anywhere at all
+Value -0.000858057754541619
+Choose a new direction to travel in
+Progress 13.0%
+Counts on each side of each neuron
+[1 4 0 0 0 1 4 4 4 0 4 4 0 4 0]
+[3 0 4 4 4 3 0 0 0 4 0 0 4 0 4]
+Try to explore the other side of neuron 1
+Changing 1 to flip sides because mean is 0.8
+Can't go anywhere at all
+Value -0.0007241451438915192
+Distance we need to step: 7.759461107817493
+Now try to find the continuation direction
+	Start the box step with size 11
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 11
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 9
+	Try stepping away 9
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 9
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 7
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Move to 986 versus 9178 True
+	Move to 9178 versus 9178 False
+	Move to 986 versus 9178 False
+	Succeeded
+	Move to 986 versus 9178 True
+Value at multiple: 0.0
+Value at success: -0.23722850040207533
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 4
+Choose a new direction to travel in
+Progress 13.0%
+Counts on each side of each neuron
+[1 4 0 0 0 2 5 5 5 0 5 5 0 5 0]
+[4 0 5 5 5 3 0 0 0 5 0 0 5 0 5]
+Try to explore the other side of neuron 1
+Changing 1 to flip sides because mean is 0.8
+Can't go anywhere at all
+Value -82.20092982338015
+Distance we need to step: 13.710184468855584
+Now try to find the continuation direction
+	Start the box step with size 9
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Move to 986 versus 986 True
+	Move to 986 versus 986 False
+	Move to 986 versus 986 True
+	Move to 1018 versus 986 False
+	Succeeded
+Value at multiple: -82.20033131057488
+Value at success: -81.18201176483824
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 6
+Choose a new direction to travel in
+Progress 26.0%
+Counts on each side of each neuron
+[1 4 0 0 0 3 6 6 6 1 6 6 0 6 0]
+[5 1 6 6 6 3 0 0 0 5 0 0 6 0 6]
+Try to explore the other side of neuron 2
+Changing 10 to flip sides because mean is 0.8571428571428571
+Value -0.003647722171422174
+Choose a new direction to travel in
+Progress 26.0%
+Counts on each side of each neuron
+[1 4 0 0 0 3 6 6 6 1 6 6 0 6 0]
+[5 1 6 6 6 3 0 0 0 5 0 0 6 0 6]
+Try to explore the other side of neuron 2
+Changing 10 to flip sides because mean is 0.8571428571428571
+Value -0.0037028276656769776
+Distance we need to step: 2.2521189582420487
+Now try to find the continuation direction
+	Start the box step with size 12
+	Try stepping away 10
+	Try stepping away 12
+	Try stepping away 13
+	Move to 1002 versus 1018 True
+	Move to 1002 versus 1018 False
+	Succeeded
+	Move to 1018 versus 1018 False
+	Move to 1002 versus 1018 True
+Value at multiple: 0.0
+Value at success: -18.184763972337635
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 8
+Choose a new direction to travel in
+Progress 33.0%
+Counts on each side of each neuron
+[1 4 0 0 0 4 7 7 7 2 6 7 0 7 0]
+[6 2 7 7 7 3 0 0 0 5 1 0 7 0 7]
+Try to explore the other side of neuron 2
+Changing 13 to flip sides because mean is 0.875
+Value -0.0009001809169149055
+Choose a new direction to travel in
+Progress 33.0%
+Counts on each side of each neuron
+[1 4 0 0 0 4 7 7 7 2 6 7 0 7 0]
+[6 2 7 7 7 3 0 0 0 5 1 0 7 0 7]
+Try to explore the other side of neuron 2
+Changing 13 to flip sides because mean is 0.875
+Can't go anywhere at all
+Value -0.0010160562562582243
+Distance we need to step: 12.2387147727336
+Now try to find the continuation direction
+	Start the box step with size 12
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 10
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 8
+	Try stepping away 8
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 8
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 6
+	Try stepping away 6
+	Try stepping away 7
+	Try stepping away 8
+	Move to 1002 versus 1002 True
+	Move to 1002 versus 1002 True
+	Move to 1000 versus 1002 False
+	Succeeded
+	Move to 1002 versus 1002 False
+Value at multiple: 3.552713678800501e-15
+Value at success: -0.6991104809749551
+polytope at initial 1000
+polytope at 0.5 1000 0
+polytope at 0.75 1000 0
+polytope at 0.875 1000 0
+polytope at 0.9375 1000 0
+polytope at 0.96875 1000 0
+polytope at 0.984375 1000 0
+polytope at 0.9921875 1000 0
+GO TO 0.9921875
+Value at moved success: -0.3468243401711675
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 10
+Choose a new direction to travel in
+Progress 33.0%
+Counts on each side of each neuron
+[1 4 0 0 0 5 8 8 8 3 6 8 0 7 0]
+[7 3 8 8 8 3 0 0 0 5 2 0 8 0 8]
+Try to explore the other side of neuron 2
+Changing 13 to flip sides because mean is 0.875
+Value -339.73807318822674
+Distance we need to step: 38.472306531643525
+Now try to find the continuation direction
+	Start the box step with size 7
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Move to 17384 versus 1000 True
+	Move to 17384 versus 1000 False
+	Succeeded
+	Move to 1000 versus 1000 True
+	Move to 1000 versus 1000 False
+Value at multiple: -473.6497769816978
+Value at success: -476.4350993062308
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 12
+Choose a new direction to travel in
+Progress 40.0%
+Counts on each side of each neuron
+[2 4 0 0 0 6 9 9 9 4 6 9 0 7 0]
+[7 4 9 9 9 3 0 0 0 5 3 0 9 1 9]
+Try to explore the other side of neuron 2
+Changing 14 to flip sides because mean is 0.0
+Value 0.0021644825606301765
+Choose a new direction to travel in
+Progress 40.0%
+Counts on each side of each neuron
+[2 4 0 0 0 6 9 9 9 4 6 9 0 7 0]
+[7 4 9 9 9 3 0 0 0 5 3 0 9 1 9]
+Try to explore the other side of neuron 2
+Changing 14 to flip sides because mean is 0.0
+Value 0.002083704971141742
+Distance we need to step: 5.885758801001567
+Now try to find the continuation direction
+	Start the box step with size 11
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 9
+	Try stepping away 9
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 9
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 7
+	Try stepping away 7
+	Try stepping away 8
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Move to 17384 versus 17384 True
+	Move to 17384 versus 17384 True
+	Move to 17385 versus 17384 False
+	Succeeded
+	Move to 17384 versus 17384 False
+Value at multiple: 2.842170943040401e-14
+Value at success: 10.316350846096924
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 14
+Choose a new direction to travel in
+Progress 46.0%
+Counts on each side of each neuron
+[ 3  4  0  0  0  7 10 10 10  5  6 10  0  7  1]
+[ 7  5 10 10 10  3  0  0  0  5  4  0 10  2  9]
+Try to explore the other side of neuron 2
+Changing 4 to flip sides because mean is 0.0
+Value -26.182770329486402
+Choose a new direction to travel in
+Progress 46.0%
+Counts on each side of each neuron
+[ 3  4  0  0  0  7 10 10 10  5  6 10  0  7  1]
+[ 7  5 10 10 10  3  0  0  0  5  4  0 10  2  9]
+Try to explore the other side of neuron 2
+Changing 4 to flip sides because mean is 0.0
+Value 0.0016071997524420567
+Distance we need to step: 18.875053795418783
+Now try to find the continuation direction
+	Start the box step with size 10
+	Try stepping away 10
+	Try stepping away 11
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Try stepping away 16
+	Move to 18409 versus 17385 False
+	Succeeded
+	Move to 17385 versus 17385 True
+	Move to 17385 versus 17385 True
+	Move to 17385 versus 17385 False
+Value at multiple: -5.684341886080802e-14
+Value at success: 9.66030511519726
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 16
+Choose a new direction to travel in
+Progress 53.0%
+Counts on each side of each neuron
+[ 4  4  0  0  1  8 11 11 11  6  6 11  0  7  2]
+[ 7  6 11 11 10  3  0  0  0  5  5  0 11  3  9]
+Try to explore the other side of neuron 2
+Changing 2 to flip sides because mean is 0.0
+Value 0.013378748721606826
+Choose a new direction to travel in
+Progress 53.0%
+Counts on each side of each neuron
+[ 4  4  0  0  1  8 11 11 11  6  6 11  0  7  2]
+[ 7  6 11 11 10  3  0  0  0  5  5  0 11  3  9]
+Try to explore the other side of neuron 2
+Changing 2 to flip sides because mean is 0.0
+Value 0.014799065047668591
+Distance we need to step: 2.6207027970959715
+Now try to find the continuation direction
+	Start the box step with size 15
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 13
+	Try stepping away 10
+	Try stepping away 13
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 13
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 11
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Move to 18409 versus 18409 False
+	Move to 22505 versus 18409 False
+	Succeeded
+	Move to 18409 versus 18409 True
+	Move to 18409 versus 18409 True
+Value at multiple: 5.684341886080801e-13
+Value at success: 49.61089683528621
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 18
+Choose a new direction to travel in
+Progress 60.0%
+Counts on each side of each neuron
+[ 5  4  1  0  2  9 12 12 12  7  6 12  0  7  3]
+[ 7  7 11 12 10  3  0  0  0  5  6  0 12  4  9]
+Try to explore the other side of neuron 3
+Changing 12 to flip sides because mean is 0.0
+Value 0.00246361286190222
+Choose a new direction to travel in
+Progress 60.0%
+Counts on each side of each neuron
+[ 5  4  1  0  2  9 12 12 12  7  6 12  0  7  3]
+[ 7  7 11 12 10  3  0  0  0  5  6  0 12  4  9]
+Try to explore the other side of neuron 3
+Changing 12 to flip sides because mean is 0.0
+Value 0.002374654984890867
+Distance we need to step: 16.50990061494642
+Now try to find the continuation direction
+	Start the box step with size 11
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Move to 22509 versus 22505 False
+	Succeeded
+	Move to 22505 versus 22505 True
+	Move to 22505 versus 22505 False
+	Move to 22505 versus 22505 True
+Value at multiple: -2.842170943040401e-14
+Value at success: 30.250355622519123
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 20
+Choose a new direction to travel in
+Progress 66.0%
+Counts on each side of each neuron
+[ 6  4  2  0  3 10 13 13 13  8  6 13  1  7  4]
+[ 7  8 11 13 10  3  0  0  0  5  7  0 12  5  9]
+Try to explore the other side of neuron 3
+Changing 6 to flip sides because mean is 0.9285714285714286
+Value -0.002259909623433032
+Choose a new direction to travel in
+Progress 66.0%
+Counts on each side of each neuron
+[ 6  4  2  0  3 10 13 13 13  8  6 13  1  7  4]
+[ 7  8 11 13 10  3  0  0  0  5  7  0 12  5  9]
+Try to explore the other side of neuron 3
+Changing 6 to flip sides because mean is 0.9285714285714286
+Value -0.0023036185538956033
+Distance we need to step: 7.0346083925599725
+Now try to find the continuation direction
+	Start the box step with size 12
+	Try stepping away 10
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Move to 22253 versus 22509 False
+	Succeeded
+	Move to 22509 versus 22509 False
+	Move to 22253 versus 22509 True
+	Move to 22253 versus 22509 True
+Value at multiple: 5.684341886080802e-14
+Value at success: -30.683561806338275
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 22
+Choose a new direction to travel in
+Progress 73.0%
+Counts on each side of each neuron
+[ 7  4  3  0  4 11 13 14 14  9  6 14  2  7  5]
+[ 7  9 11 14 10  3  1  0  0  5  8  0 12  6  9]
+Try to explore the other side of neuron 3
+Changing 7 to flip sides because mean is 0.9333333333333333
+Value -0.00721341816262111
+Choose a new direction to travel in
+Progress 73.0%
+Counts on each side of each neuron
+[ 7  4  3  0  4 11 13 14 14  9  6 14  2  7  5]
+[ 7  9 11 14 10  3  1  0  0  5  8  0 12  6  9]
+Try to explore the other side of neuron 3
+Changing 7 to flip sides because mean is 0.9333333333333333
+Value -0.008288678931023696
+Distance we need to step: 5.398794768936733
+Now try to find the continuation direction
+	Start the box step with size 14
+	Try stepping away 10
+	Try stepping away 14
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 14
+	Try stepping away 15
+	Move to 22253 versus 22253 False
+	Move to 22125 versus 22253 False
+	Succeeded
+	Move to 22125 versus 22253 True
+	Move to 22125 versus 22253 True
+Value at multiple: -2.2737367544323206e-13
+Value at success: -13.218989874515728
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 24
+Choose a new direction to travel in
+Progress 80.0%
+Counts on each side of each neuron
+[ 8  4  4  0  5 12 13 14 15 10  6 15  3  7  6]
+[ 7 10 11 15 10  3  2  1  0  5  9  0 12  7  9]
+Try to explore the other side of neuron 3
+Changing 8 to flip sides because mean is 0.9375
+Can't go anywhere at all
+Value -0.0024387496195004132
+Choose a new direction to travel in
+Progress 80.0%
+Counts on each side of each neuron
+[ 8  4  4  0  5 12 13 14 15 10  6 15  3  7  6]
+[ 7 10 11 15 10  3  2  1  0  5  9  0 12  7  9]
+Try to explore the other side of neuron 3
+Changing 8 to flip sides because mean is 0.9375
+Can't go anywhere at all
+Can't go anywhere at all
+Value -0.003185391201952825
+Distance we need to step: 28.703379889194046
+Now try to find the continuation direction
+	Start the box step with size 14
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 12
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 10
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 8
+	Try stepping away 8
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 8
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 6
+	Try stepping away 6
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 6
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 4
+	Try stepping away 4
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 4
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 2
+	Try stepping away 2
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 2
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 0
+	Try stepping away 0
+	Try stepping away 1
+	Try stepping away 2
+	Try stepping away 3
+	Move to 22125 versus 22125 True
+	Move to 22125 versus 22125 False
+	Move to 22125 versus 22125 True
+	Move to 22061 versus 22125 False
+	Succeeded
+Value at multiple: -1.7053025658242404e-13
+Value at success: -0.889245986073604
+polytope at initial 22061
+polytope at 0.5 22061 0
+polytope at 0.75 22061 0
+polytope at 0.875 22061 0
+polytope at 0.9375 22061 0
+polytope at 0.96875 22061 0
+polytope at 0.984375 22061 0
+polytope at 0.9921875 22061 0
+GO TO 0.9921875
+Value at moved success: -0.44114937590370573
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 26
+Choose a new direction to travel in
+Progress 80.0%
+Counts on each side of each neuron
+[ 9  4  5  0  6 13 13 14 15 11  6 16  4  7  7]
+[ 7 11 11 16 10  3  3  2  0  5 10  0 12  8  9]
+Try to explore the other side of neuron 3
+Changing 8 to flip sides because mean is 0.9375
+Can't go anywhere at all
+Value -7633.488669328566
+Distance we need to step: 235.55471791922906
+Now try to find the continuation direction
+	Start the box step with size 2
+	Try stepping away 2
+	Try stepping away 3
+	Try stepping away 4
+	Try stepping away 5
+	Try stepping away 6
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Try stepping away 16
+	Try stepping away 17
+	Try stepping away 18
+	Move to 22061 versus 22061 False
+	Move to 24109 versus 22061 True
+	Move to 24109 versus 22061 True
+	Move to 24109 versus 22061 False
+	Succeeded
+Value at multiple: -7632.999796058458
+Value at success: -7879.461432154081
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 28
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[10  4  6  1  7 14 13 14 15 12  6 17  5  7  8]
+[ 7 12 11 16 10  3  4  3  1  5 11  0 12  9  9]
+Try to explore the other side of neuron 11
+Changing 11 to flip sides because mean is 0.9444444444444444
+Value -0.011157436712892377
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[10  4  6  1  7 14 13 14 15 12  6 17  5  7  8]
+[ 7 12 11 16 10  3  4  3  1  5 11  0 12  9  9]
+Try to explore the other side of neuron 11
+Changing 11 to flip sides because mean is 0.9444444444444444
+Can't go anywhere at all
+Can't go anywhere at all
+Value -0.012663459284340206
+Distance we need to step: 49.86816689464498
+Now try to find the continuation direction
+	Start the box step with size 17
+	Try stepping away 10
+	Try stepping away 17
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 17
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 15
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 13
+	Try stepping away 10
+	Try stepping away 13
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Try stepping away 16
+	Move to 24109 versus 24109 False
+	Move to 24101 versus 24109 False
+	Succeeded
+	Move to 24101 versus 24109 True
+	Move to 24101 versus 24109 True
+Value at multiple: 2.7284841053187847e-12
+Value at success: -45.97006249617971
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 30
+Choose a new direction to travel in
+Progress 100.0%
+Counts on each side of each neuron
+[11  4  7  2  8 15 13 14 15 13  6 17  6  7  9]
+[ 7 13 11 16 10  3  5  4  2  5 12  1 12 10  9]
+Try to explore the other side of neuron 11
+Changing 11 to flip sides because mean is 0.8947368421052632
+Can't go anywhere at all
+Can't go anywhere at all
+Can't go anywhere at all
+Value -301542.95488396386
+Distance we need to step: 3182.3521665041058
+Now try to find the continuation direction
+	Start the box step with size 15
+	Try stepping away 10
+	Try stepping away 15
+	Try stepping away 16
+	Try stepping away 17
+	Try stepping away 18
+	Try stepping away 19
+	Try stepping away 20
+	Try stepping away 21
+	Move to 24117 versus 24101 False
+	Succeeded
+	Move to 24117 versus 24101 True
+	Move to 24101 versus 24101 False
+	Move to 24101 versus 24101 True
+Value at multiple: -301543.1804872606
+Value at success: -298765.5324971128
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 32
+Have all the points we need (1)
+0
+[11  4  7  2  8 15 13 14 15 13  6 17  6  7  9]
+[ 7 13 11 16 10  3  5  4  2  5 12  1 12 10  9]
+[20  3 14  4 16 30 22 24 25 26  8 30 12  9 18]
+[12 27 18 28 16  2 10  8  5  6 24  2 20 21 14]
+Counts
+[22  7 14  4 16 30 26 28 29 26 12 34 12 13 18]
+[14 27 22 32 20  6 10  8  5 10 24  2 24 21 18]
+SHOULD BE DONE? True False
+Have all the points we need (2)
+Abort
+Now have critical points 36
+Query count 0
+Created a list
+Done map, now collect results
+Took 0.6184251308441162 seconds
+Attempts at solution: 1 out of 32768
+std 0.031249262108666246
+median 0.08067512257369751
+min 7.459083433903885e-08
+Extracted [-1  1 -1  1 -1 -1  1 -1  1  1 -1 -1  1  1 -1]
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+real sign [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Total query count 0
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 12 with error 4.427469581360696e-15 ratio 0.002447639126298895
+Bias check 3.1718985077366924e-14
+Neuron 1 maps on to neuron 6 with error 1.1042180729124841e-15 ratio 0.048695690930198474
+Bias check 3.087946565116795e-13
+Neuron 2 maps on to neuron 3 with error 1.2563067444717556e-15 ratio 0.0038666892796894855
+Bias check -1.4001820536346798e-14
+Neuron 3 maps on to neuron 11 with error 1.5454512140011162e-15 ratio 0.004733901936244175
+Bias check -3.1669458722127786e-13
+Neuron 4 maps on to neuron 9 with error 2.2642533965627305e-15 ratio 0.009390164167134774
+Bias check -4.45855158348607e-13
+Neuron 5 maps on to neuron 7 with error 5.4367027065145456e-15 ratio 0.03429402783569205
+Bias check -5.613565168260948e-13
+Neuron 6 maps on to neuron 1 with error 6.470526417862313e-15 ratio 0.03106653318095937
+Bias check 2.868320164717275e-12
+Neuron 7 maps on to neuron 13 with error 7.840454872567049e-16 ratio 0.008465402759831743
+Bias check -2.2013640910145682e-13
+Neuron 8 maps on to neuron 8 with error 2.2768261535952693e-15 ratio 0.011998180299879861
+Bias check -1.1746853489924547e-13
+Neuron 9 maps on to neuron 4 with error 2.6741271846881965e-15 ratio 0.0014927516469410737
+Bias check 1.0854680869420985e-12
+Neuron 10 maps on to neuron 2 with error 2.9810031202663273e-15 ratio 0.01525477320021909
+Bias check -6.608324998325088e-13
+Neuron 11 maps on to neuron 0 with error 2.1386649299255605e-15 ratio 0.0042310296557527705
+Bias check 3.159798811491754e-14
+Neuron 12 maps on to neuron 5 with error 4.0090523525521215e-15 ratio 0.03328509256337671
+Bias check 9.39651134679309e-13
+Neuron 13 maps on to neuron 10 with error 4.787920883456255e-15 ratio 0.04994553327463652
+Bias check -9.677258994145177e-13
+Neuron 14 maps on to neuron 14 with error 2.4994633929450406e-15 ratio 0.03996356949215267
+Bias check -5.100087019371813e-14
+
+Start running critical point search to find neurons on layer 1
+At this iteration I have 0 critical points
+Gathering 121.86225904959946 critical points
+Start another sweep
+Total intersections found 30
+delta queries 0
+Up to 1 of 121.86225904959946
+Up to 2 of 121.86225904959946
+Up to 3 of 121.86225904959946
+Up to 4 of 121.86225904959946
+Up to 5 of 121.86225904959946
+Up to 6 of 121.86225904959946
+Up to 7 of 121.86225904959946
+Up to 8 of 121.86225904959946
+Up to 9 of 121.86225904959946
+Up to 10 of 121.86225904959946
+Up to 11 of 121.86225904959946
+Up to 12 of 121.86225904959946
+Up to 13 of 121.86225904959946
+Up to 14 of 121.86225904959946
+Up to 15 of 121.86225904959946
+Start another sweep
+Total intersections found 24
+delta queries 0
+Up to 16 of 121.86225904959946
+Up to 17 of 121.86225904959946
+Up to 18 of 121.86225904959946
+Up to 19 of 121.86225904959946
+Up to 20 of 121.86225904959946
+Up to 21 of 121.86225904959946
+Up to 22 of 121.86225904959946
+Up to 23 of 121.86225904959946
+Up to 24 of 121.86225904959946
+Start another sweep
+Total intersections found 29
+delta queries 0
+Up to 25 of 121.86225904959946
+Up to 26 of 121.86225904959946
+Up to 27 of 121.86225904959946
+Up to 28 of 121.86225904959946
+Up to 29 of 121.86225904959946
+Up to 30 of 121.86225904959946
+Up to 31 of 121.86225904959946
+Up to 32 of 121.86225904959946
+Up to 33 of 121.86225904959946
+Up to 34 of 121.86225904959946
+Up to 35 of 121.86225904959946
+Up to 36 of 121.86225904959946
+Up to 37 of 121.86225904959946
+Up to 38 of 121.86225904959946
+Start another sweep
+Total intersections found 27
+delta queries 0
+Up to 39 of 121.86225904959946
+Up to 40 of 121.86225904959946
+Up to 41 of 121.86225904959946
+Up to 42 of 121.86225904959946
+Up to 43 of 121.86225904959946
+Up to 44 of 121.86225904959946
+Up to 45 of 121.86225904959946
+Up to 46 of 121.86225904959946
+Up to 47 of 121.86225904959946
+Up to 48 of 121.86225904959946
+Up to 49 of 121.86225904959946
+Up to 50 of 121.86225904959946
+Start another sweep
+Total intersections found 28
+delta queries 0
+Up to 51 of 121.86225904959946
+Up to 52 of 121.86225904959946
+Up to 53 of 121.86225904959946
+Up to 54 of 121.86225904959946
+Up to 55 of 121.86225904959946
+Up to 56 of 121.86225904959946
+Up to 57 of 121.86225904959946
+Up to 58 of 121.86225904959946
+Up to 59 of 121.86225904959946
+Up to 60 of 121.86225904959946
+Up to 61 of 121.86225904959946
+Up to 62 of 121.86225904959946
+Up to 63 of 121.86225904959946
+Start another sweep
+Total intersections found 27
+delta queries 0
+Up to 64 of 121.86225904959946
+Up to 65 of 121.86225904959946
+Up to 66 of 121.86225904959946
+Up to 67 of 121.86225904959946
+Up to 68 of 121.86225904959946
+Up to 69 of 121.86225904959946
+Up to 70 of 121.86225904959946
+Up to 71 of 121.86225904959946
+Up to 72 of 121.86225904959946
+Up to 73 of 121.86225904959946
+Up to 74 of 121.86225904959946
+Up to 75 of 121.86225904959946
+Start another sweep
+Total intersections found 33
+delta queries 0
+Up to 76 of 121.86225904959946
+Up to 77 of 121.86225904959946
+Up to 78 of 121.86225904959946
+Up to 79 of 121.86225904959946
+Up to 80 of 121.86225904959946
+Up to 81 of 121.86225904959946
+Up to 82 of 121.86225904959946
+Up to 83 of 121.86225904959946
+Up to 84 of 121.86225904959946
+Up to 85 of 121.86225904959946
+Up to 86 of 121.86225904959946
+Up to 87 of 121.86225904959946
+Up to 88 of 121.86225904959946
+Up to 89 of 121.86225904959946
+Up to 90 of 121.86225904959946
+Up to 91 of 121.86225904959946
+Up to 92 of 121.86225904959946
+Up to 93 of 121.86225904959946
+Start another sweep
+Total intersections found 31
+delta queries 0
+Up to 94 of 121.86225904959946
+Up to 95 of 121.86225904959946
+Up to 96 of 121.86225904959946
+Up to 97 of 121.86225904959946
+Up to 98 of 121.86225904959946
+Up to 99 of 121.86225904959946
+Up to 100 of 121.86225904959946
+Up to 101 of 121.86225904959946
+Up to 102 of 121.86225904959946
+Up to 103 of 121.86225904959946
+Up to 104 of 121.86225904959946
+Up to 105 of 121.86225904959946
+Up to 106 of 121.86225904959946
+Up to 107 of 121.86225904959946
+Up to 108 of 121.86225904959946
+Up to 109 of 121.86225904959946
+Start another sweep
+Total intersections found 30
+delta queries 0
+Up to 110 of 121.86225904959946
+Up to 111 of 121.86225904959946
+Up to 112 of 121.86225904959946
+Up to 113 of 121.86225904959946
+Up to 114 of 121.86225904959946
+Up to 115 of 121.86225904959946
+Up to 116 of 121.86225904959946
+Up to 117 of 121.86225904959946
+Up to 118 of 121.86225904959946
+Up to 119 of 121.86225904959946
+Up to 120 of 121.86225904959946
+Up to 121 of 121.86225904959946
+Up to 122 of 121.86225904959946
+Query count after that search: 0
+And now up to  122 critical points
+After filtering duplicates we're down to  122 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.016003847122192383
+Graph search found 13 different components with the following counts [13, 12, 12, 10, 9, 9, 9, 9, 8, 7, 7, 6, 5]
+After re-doing the graph, the component counts is 13 with items [13, 12, 12, 10, 9, 9, 9, 9, 8, 7, 7, 6, 5]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(32), 1, np.int64(97), np.int64(37), np.int64(105), np.int64(74), np.int64(45), np.int64(80), 17, np.int64(115), np.int64(120), np.int64(61), np.int64(30)]
+The guessed error in the computation is 0.0009298074648995723 with 13 witnesses
+Normalize on axis 13
+
+
+On component 1 with indexs [np.int64(69), 6, 7, np.int64(72), np.int64(73), np.int64(11), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.0002099548220713468 with 12 witnesses
+Normalize on axis 11
+
+
+On component 2 with indexs [np.int64(43), 12, np.int64(76), np.int64(46), np.int64(107), np.int64(92), np.int64(49), np.int64(119), np.int64(56), 28, np.int64(93), np.int64(63)]
+The guessed error in the computation is 0.027492686765747915 with 12 witnesses
+Normalize on axis 2
+
+
+On component 3 with indexs [np.int64(65), 5, np.int64(71), np.int64(10), np.int64(44), 19, np.int64(116), np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0012743144646099338 with 10 witnesses
+Normalize on axis 7
+
+
+On component 4 with indexs /Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0, np.int64(96), np.int64(36), np.int64(70), np.int64(38), np.int64(16), np.int64(54), np.int64(87), np.int64(29)]
+The guessed error in the computation is 0.0001818875344740123 with 9 witnesses
+Normalize on axis 13
+
+
+On component 5 with indexs [np.int64(66), 3, np.int64(108), np.int64(53), np.int64(86), np.int64(23), np.int64(24), np.int64(118), np.int64(90)]
+The guessed error in the computation is 0.002530780235051957 with 9 witnesses
+Normalize on axis 0
+
+
+On component 6 with indexs [np.int64(98), np.int64(100), np.int64(101), 9, 15, np.int64(47), np.int64(83), np.int64(117), np.int64(95)]
+The guessed error in the computation is 0.0014630035809558642 with 9 witnesses
+Normalize on axis 2
+Got NaN, need more data 0.07758620689655173 0.06666666666666667
+
+
+On component 7 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 8 with indexs [35, np.int64(41), np.int64(106), 13, np.int64(82), 20, 25, np.int64(58)]
+The guessed error in the computation is 0.0005736579578249842 with 8 witnesses
+Normalize on axis 0
+
+
+On component 9 with indexs [np.int64(67), 4, np.int64(99), np.int64(78), np.int64(14), np.int64(81), np.int64(114)]
+The guessed error in the computation is 8.353206490358325e-05 with 7 witnesses
+Normalize on axis 14
+
+
+On component 10 with indexs [np.int64(33), np.int64(102), np.int64(27), np.int64(42), np.int64(85), 21, np.int64(59)]
+The guessed error in the computation is 0.0002795912481628332 with 7 witnesses
+Normalize on axis 0
+
+
+On component 11 with indexs [np.int64(34), np.int64(39), np.int64(104), np.int64(84), 22, np.int64(57)]
+The guessed error in the computation is 0.0007499542951093395 with 6 witnesses
+Normalize on axis 9
+
+
+On component 12 with indexs [np.int64(68), 8, np.int64(75), np.int64(109), np.int64(52)]
+The guessed error in the computation is 3.08674395503028e-05 with 5 witnesses
+Normalize on axis 11
+Got NaN, need more data 0.04310344827586207 0.06666666666666667
+We have not explored all neurons. Do more random search 11 2 15
+Graph solving failed; get more points
+Got partial solution with shape (11, 15)
+hidden (13, 15)
+hidden (12, 15)
+hidden (12, 15)
+hidden (10, 15)
+hidden (9, 15)
+hidden (9, 15)
+hidden (9, 15)
+hidden (8, 15)
+hidden (7, 15)
+hidden (7, 15)
+hidden (6, 15)
+At this iteration I have 122 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Start another sweep
+Total intersections found 26
+delta queries 0
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Start another sweep
+Total intersections found 27
+delta queries 0
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  137 critical points
+After filtering duplicates we're down to  137 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.01518392562866211
+Graph search found 13 different components with the following counts [15, 13, 13, 12, 12, 10, 10, 9, 9, 8, 7, 7, 6]
+After re-doing the graph, the component counts is 13 with items [15, 13, 13, 12, 12, 10, 10, 9, 9, 8, 7, 7, 6]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(32), 1, np.int64(97), np.int64(37), np.int64(134), np.int64(105), np.int64(74), np.int64(45), np.int64(80), 17, np.int64(115), np.int64(120), np.int64(122), np.int64(61), np.int64(30)]
+The guessed error in the computation is 0.000910785648609979 with 15 witnesses
+Normalize on axis 13
+
+
+On component 1 with indexs [np.int64(66), 3, np.int64(133), np.int64(136), np.int64(108), 18, np.int64(53), np.int64(86), np.int64(23), np.int64(24), np.int64(118), np.int64(90), np.int64(125)]
+The guessed error in the computation is 0.002205944877984106 with 13 witnesses
+Normalize on axis 9
+
+
+On component 2 with indexs [np.int64(131), np.int64(43), 12, np.int64(76), np.int64(46), np.int64(107), np.int64(92), np.int64(49), np.int64(119), np.int64(56), 28, np.int64(93), np.int64(63)]
+The guessed error in the computation is 0.027774342234480595 with 13 witnesses
+Normalize on axis 2
+
+
+On component 3 with indexs [np.int64(128), np.int64(65), np.int64(132), 5, np.int64(71), np.int64(10), np.int64(44), 19, np.int64(116), np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0009791557540673942 with 12 witnesses
+Normalize on axis 5
+
+
+On component 4 with indexs [np.int64(69), 6, 7, np.int64(72), np.int64(73), np.int64(11), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.0002099548220713468 with 12 witnesses
+Normalize on axis 11
+
+
+On component 5 with indexs [0, np.int64(96), np.int64(130), np.int64(36), np.int64(70), np.int64(38), np.int64(16), np.int64(54), np.int64(87), np.int64(29)]
+The guessed error in the computation is 0.00018494810612852686 with 10 witnesses
+Normalize on axis 13
+
+
+On component 6 with indexs [np.int64(98), np.int64(100), np.int64(101), np.int64(135), 9, np.int64(47), 15, np.int64(83), np.int64(117), np.int64(95)]
+The guessed error in the computation is 0.0007685121579238015 with 10 witnesses
+Normalize on axis 14
+
+
+On component 7 with indexs [35, np.int64(41), np.int64(106), 13, np.int64(82), 20, 25, 58, np.int64(127)]
+The guessed error in the computation is 0.0005910928900472595 with 9 witnesses
+Normalize on axis 9
+
+
+On component 8 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 9 with indexs [np.int64(33), np.int64(102), np.int64(27), np.int64(42), np.int64(85), 21, np.int64(59), np.int64(124)]
+The guessed error in the computation is 0.0003120561451343748 with 8 witnesses
+Normalize on axis 0
+
+
+On component 10 with indexs [np.int64(67), 4, np.int64(99), np.int64(78), np.int64(14), np.int64(81), np.int64(114)]
+The guessed error in the computation is 8.353206490358325e-05 with 7 witnesses
+Normalize on axis 14
+
+
+On component 11 with indexs [np.int64(34), np.int64(39), np.int64(104), np.int64(84), 22, np.int64(57), np.int64(126)]
+The guessed error in the computation is 0.00720689227293374 with 7 witnesses
+Normalize on axis 3
+
+
+On component 12 with indexs [np.int64(68), 8, np.int64(75), np.int64(109), np.int64(52), np.int64(123)]
+The guessed error in the computation is 8.129535199087601e-05 with 6 witnesses
+Normalize on axis 11
+We have not explored all neurons. Do more random search 13 0 15
+Graph solving failed; get more points
+Got partial solution with shape (13, 15)
+hidden (15, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (12, 15)
+hidden (12, 15)
+hidden (10, 15)
+hidden (10, 15)
+hidden (9, 15)
+hidden (9, 15)
+hidden (8, 15)
+hidden (7, 15)
+hidden (7, 15)
+hidden (6, 15)
+At this iteration I have 137 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Start another sweep
+Total intersections found 26
+delta queries 0
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Start another sweep
+Total intersections found 34
+delta queries 0
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  152 critical points
+After filtering duplicates we're down to  152 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.016649961471557617
+Graph search found 13 different components with the following counts [16, 15, 15, 14, 13, 12, 11, 10, 9, 8, 8, 8, 7]
+After re-doing the graph, the component counts is 13 with items [16, 15, 15, 14, 13, 12, 11, 10, 9, 8, 8, 8, 7]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(32), 1, np.int64(97), np.int64(37), np.int64(134), np.int64(105), np.int64(74), np.int64(45), np.int64(80), 17, np.int64(115), np.int64(151), np.int64(120), np.int64(122), np.int64(61), np.int64(30)]
+The guessed error in the computation is 0.0009140854757482882 with 16 witnesses
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+Normalize on axis 13
+
+
+On component 1 with indexs [np.int64(69), 6, 7, np.int64(72), np.int64(73), np.int64(138), np.int64(11), np.int64(140), np.int64(141), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00018908752733248074 with 15 witnesses
+Normalize on axis 11
+
+
+On component 2 with indexs [np.int64(131), np.int64(137), np.int64(43), 12, np.int64(76), np.int64(46), np.int64(143), np.int64(107), np.int64(49), np.int64(92), np.int64(119), np.int64(56), 28, np.int64(93), np.int64(63)]
+The guessed error in the computation is 0.018341740984666226 with 15 witnesses
+Normalize on axis 2
+
+
+On component 3 with indexs [np.int64(66), 3, np.int64(133), np.int64(136), np.int64(108), 18, np.int64(147), np.int64(53), np.int64(86), np.int64(23), np.int64(24), np.int64(118), np.int64(90), np.int64(125)]
+The guessed error in the computation is 0.0013960392145618045 with 14 witnesses
+Normalize on axis 12
+
+
+On component 4 with indexs [np.int64(128), np.int64(65), np.int64(132), 5, np.int64(71), np.int64(10), np.int64(44), np.int64(146), 19, np.int64(116), np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0017811684274022287 with 13 witnesses
+Normalize on axis 5
+
+
+On component 5 with indexs [0, np.int64(96), np.int64(130), np.int64(36), np.int64(70), np.int64(38), np.int64(142), np.int64(16), np.int64(148), np.int64(54), np.int64(87), np.int64(29)]
+The guessed error in the computation is 0.00010300507222956584 with 12 witnesses
+Normalize on axis 13
+
+
+On component 6 with indexs [np.int64(98), np.int64(100), np.int64(101), np.int64(135), 9, np.int64(47), np.int64(144), 15, np.int64(83), np.int64(117), np.int64(95)]
+The guessed error in the computation is 0.0007584899391759707 with 11 witnesses
+Normalize on axis 14
+
+
+On component 7 with indexs [35, np.int64(41), np.int64(106), 13, np.int64(82), 20, np.int64(150), 25, 58, np.int64(127)]
+The guessed error in the computation is 0.0005402895379049699 with 10 witnesses
+Normalize on axis 9
+
+
+On component 8 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 9 with indexs [np.int64(68), 8, np.int64(75), np.int64(139), np.int64(109), np.int64(145), np.int64(52), np.int64(123)]
+The guessed error in the computation is 9.275519354978029e-05 with 8 witnesses
+Normalize on axis 11
+
+
+On component 10 with indexs [np.int64(33), np.int64(102), np.int64(59), np.int64(42), np.int64(85), 21, np.int64(27), np.int64(124)]
+The guessed error in the computation is 0.0003120561451343748 with 8 witnesses
+Normalize on axis 0
+
+
+On component 11 with indexs [np.int64(34), np.int64(39), np.int64(104), np.int64(84), np.int64(149), 22, np.int64(57), np.int64(126)]
+The guessed error in the computation is 0.007916840904887512 with 8 witnesses
+Normalize on axis 3
+
+
+On component 12 with indexs [np.int64(67), 4, np.int64(99), np.int64(78), np.int64(14), np.int64(81), np.int64(114)]
+The guessed error in the computation is 8.353206490358325e-05 with 7 witnesses
+Normalize on axis 14
+We have not explored all neurons. Do more random search 13 0 15
+Graph solving failed; get more points
+Got partial solution with shape (13, 15)
+hidden (16, 15)
+hidden (15, 15)
+hidden (15, 15)
+hidden (14, 15)
+hidden (13, 15)
+hidden (12, 15)
+hidden (11, 15)
+hidden (10, 15)
+hidden (9, 15)
+hidden (8, 15)
+hidden (8, 15)
+hidden (8, 15)
+hidden (7, 15)
+At this iteration I have 152 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Start another sweep
+Total intersections found 32
+delta queries 0
+Up to 15 of 15
+Query count after that search: 0
+And now up to  167 critical points
+After filtering duplicates we're down to  167 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.01718592643737793
+Graph search found 14 different components with the following counts [17, 17, 16, 16, 13, 13, 13, 10, 10, 9, 8, 8, 8, 3]
+After re-doing the graph, the component counts is 14 with items [17, 17, 16, 16, 13, 13, 13, 10, 10, 9, 8, 8, 8, 3]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(32), 1, np.int64(97), np.int64(164), np.int64(37), np.int64(134), np.int64(105), np.int64(74), np.int64(45), np.int64(80), 17, np.int64(115), np.int64(151), np.int64(120), np.int64(122), np.int64(61), np.int64(30)]
+The guessed error in the computation is 0.0008391876110222102 with 17 witnesses
+Normalize on axis 13
+
+
+On component 1 with indexs [np.int64(160), np.int64(66), 3, np.int64(163), np.int64(133), np.int64(136), np.int64(108), 18, np.int64(147), np.int64(53), np.int64(86), np.int64(23), np.int64(24), np.int64(118), np.int64(90), np.int64(155), np.int64(125)]
+The guessed error in the computation is 0.0011854890378447404 with 17 witnesses
+Normalize on axis 12
+
+
+On component 2 with indexs [np.int64(69), 6, np.int64(166), np.int64(72), np.int64(73), np.int64(138), np.int64(11), 7, np.int64(141), np.int64(140), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00017135361140124296 with 16 witnesses
+Normalize on axis 1
+
+
+On component 3 with indexs [np.int64(131), np.int64(137), np.int64(43), 12, np.int64(76), np.int64(46), np.int64(143), np.int64(107), np.int64(49), np.int64(156), 92, np.int64(119), 56, 28, np.int64(93), np.int64(63)]
+The guessed error in the computation is 0.013400162898277335 with 16 witnesses
+Normalize on axis 2
+
+
+On component 4 with indexs [0, np.int64(96), np.int64(130), np.int64(36), np.int64(165), np.int64(70), np.int64(38), np.int64(142), np.int64(16), np.int64(148), np.int64(54), np.int64(87), np.int64(29)]
+The guessed error in the computation is 0.00010241763884401983 with 13 witnesses
+Normalize on axis 13
+
+
+On component 5 with indexs [np.int64(128), np.int64(65), np.int64(132), 5, np.int64(71), np.int64(10), np.int64(44), np.int64(146), 19, np.int64(116), np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0017811684274022287 with 13 witnesses
+Normalize on axis 5
+
+
+On component 6 with indexs [np.int64(159), np.int64(98), np.int64(100), np.int64(101), np.int64(135), 9, np.int64(47), np.int64(144), 15, np.int64(83), np.int64(117), np.int64(152), np.int64(95)]
+The guessed error in the computation is 0.000772166396574514 with 13 witnesses
+Normalize on axis 14
+
+
+On component 7 with indexs [np.int64(68), 8, np.int64(75), np.int64(139), np.int64(109), np.int64(145), np.int64(52), np.int64(154), np.int64(123), np.int64(157)]
+The guessed error in the computation is 9.060449910616372e-05 with 10 witnesses
+Normalize on axis 2
+
+
+On component 8 with indexs [35, np.int64(41), np.int64(106), 13, np.int64(82), 20, np.int64(150), 25, 58, np.int64(127)]
+The guessed error in the computation is 0.0005402895379049699 with 10 witnesses
+Normalize on axis 9
+
+
+On component 9 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 10 with indexs [np.int64(67), 4, np.int64(99), np.int64(78), np.int64(14), np.int64(81), np.int64(114), np.int64(158)]
+The guessed error in the computation is 9.616508909933083e-05 with 8 witnesses
+Normalize on axis 14
+
+
+On component 11 with indexs [np.int64(33), np.int64(102), np.int64(59), np.int64(42), 21, np.int64(85), np.int64(27), np.int64(124)]
+The guessed error in the computation is 0.0003120561451343748 with 8 witnesses
+Normalize on axis 0
+
+
+On component 12 with indexs [np.int64(34), np.int64(39), np.int64(104), np.int64(84), np.int64(149), 22, np.int64(57), np.int64(126)]
+The guessed error in the computation is 0.007916840904887512 with 8 witnesses
+Normalize on axis 3
+
+
+On component 13 with indexs [np.int64(153), np.int64(161), 103]
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+The guessed error in the computation is 5.9722060607977304e-05 with 3 witnesses
+Normalize on axis 13
+Got NaN, need more data 0.018633540372670808 0.06666666666666667
+We have not explored all neurons. Do more random search 13 1 15
+Graph solving failed; get more points
+Got partial solution with shape (13, 15)
+hidden (17, 15)
+hidden (17, 15)
+hidden (16, 15)
+hidden (16, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (10, 15)
+hidden (10, 15)
+hidden (9, 15)
+hidden (8, 15)
+hidden (8, 15)
+hidden (8, 15)
+At this iteration I have 167 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Start another sweep
+Total intersections found 31
+delta queries 0
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  182 critical points
+After filtering duplicates we're down to  182 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.01725602149963379
+Graph search found 14 different components with the following counts [18, 18, 18, 16, 14, 13, 13, 13, 13, 12, 9, 8, 8, 3]
+After re-doing the graph, the component counts is 14 with items [18, 18, 18, 16, 14, 13, 13, 13, 13, 12, 9, 8, 8, 3]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(32), 1, np.int64(97), np.int64(164), np.int64(37), np.int64(134), np.int64(105), np.int64(74), np.int64(45), np.int64(175), np.int64(80), 17, np.int64(115), np.int64(151), np.int64(120), np.int64(122), np.int64(61), np.int64(30)]
+The guessed error in the computation is 0.0007598338110623385 with 18 witnesses
+Normalize on axis 13
+
+
+On component 1 with indexs [np.int64(160), np.int64(66), 3, np.int64(163), np.int64(133), np.int64(136), np.int64(108), np.int64(176), 18, np.int64(147), np.int64(53), np.int64(86), np.int64(23), np.int64(24), np.int64(118), np.int64(90), np.int64(155), np.int64(125)]
+The guessed error in the computation is 0.001181731014726546 with 18 witnesses
+Normalize on axis 12
+
+
+On component 2 with indexs [np.int64(131), np.int64(168), np.int64(137), np.int64(43), 12, np.int64(76), np.int64(46), np.int64(143), np.int64(107), np.int64(49), np.int64(178), np.int64(156), 92, np.int64(119), 56, 28, np.int64(93), np.int64(63)]
+The guessed error in the computation is 0.013403689760620102 with 18 witnesses
+Normalize on axis 2
+
+
+On component 3 with indexs [np.int64(69), 6, np.int64(166), np.int64(72), np.int64(73), np.int64(138), np.int64(11), 7, np.int64(141), np.int64(140), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00017135361140124296 with 16 witnesses
+Normalize on axis 1
+
+
+On component 4 with indexs [35, np.int64(41), np.int64(106), np.int64(170), np.int64(171), 13, np.int64(82), 20, np.int64(181), np.int64(180), np.int64(150), 25, 58, np.int64(127)]
+The guessed error in the computation is 0.00042365603865299195 with 14 witnesses
+Normalize on axis 9
+
+
+On component 5 with indexs [0, np.int64(96), np.int64(130), np.int64(36), np.int64(165), np.int64(70), np.int64(38), np.int64(142), np.int64(16), np.int64(148), np.int64(54), np.int64(87), np.int64(29)]
+The guessed error in the computation is 0.00010241763884401983 with 13 witnesses
+Normalize on axis 13
+
+
+On component 6 with indexs [np.int64(128), np.int64(65), np.int64(132), 5, np.int64(71), np.int64(10), np.int64(44), np.int64(146), 19, np.int64(116), np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0017811684274022287 with 13 witnesses
+Normalize on axis 5
+
+
+On component 7 with indexs [np.int64(68), np.int64(167), 8, np.int64(75), np.int64(172), np.int64(109), np.int64(139), np.int64(145), np.int64(179), np.int64(52), np.int64(154), np.int64(123), np.int64(157)]
+The guessed error in the computation is 9.692576393141583e-05 with 13 witnesses
+Normalize on axis 11
+
+
+On component 8 with indexs [np.int64(159), np.int64(98), np.int64(100), np.int64(101), np.int64(135), 9, np.int64(47), np.int64(144), 15, np.int64(83), np.int64(117), np.int64(152), np.int64(95)]
+The guessed error in the computation is 0.000772166396574514 with 13 witnesses
+Normalize on axis 14
+
+
+On component 9 with indexs [np.int64(34), np.int64(39), np.int64(104), np.int64(169), np.int64(174), np.int64(177), 113, np.int64(84), np.int64(149), 22, np.int64(57), np.int64(126)]
+The guessed error in the computation is 0.006776093334621411 with 12 witnesses
+Normalize on axis 6
+
+
+On component 10 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 11 with indexs [np.int64(67), 4, np.int64(99), np.int64(78), np.int64(14), np.int64(81), np.int64(114), np.int64(158)]
+The guessed error in the computation is 9.616508909933083e-05 with 8 witnesses
+Normalize on axis 14
+
+
+On component 12 with indexs [np.int64(33), np.int64(102), np.int64(59), np.int64(42), np.int64(85), 21, np.int64(27), np.int64(124)]
+The guessed error in the computation is 0.0003120561451343748 with 8 witnesses
+Normalize on axis 0
+
+
+On component 13 with indexs [np.int64(153), np.int64(161), 103]
+The guessed error in the computation is 5.9722060607977304e-05 with 3 witnesses
+Normalize on axis 13
+Got NaN, need more data 0.017045454545454544 0.06666666666666667
+We have not explored all neurons. Do more random search 13 1 15
+Graph solving failed; get more points
+Got partial solution with shape (13, 15)
+hidden (18, 15)
+hidden (18, 15)
+hidden (18, 15)
+hidden (16, 15)
+hidden (14, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (12, 15)
+hidden (9, 15)
+hidden (8, 15)
+hidden (8, 15)
+At this iteration I have 182 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Start another sweep
+Total intersections found 31
+delta queries 0
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Start another sweep
+Total intersections found 30
+delta queries 0
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  197 critical points
+After filtering duplicates we're down to  197 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.018815040588378906
+Graph search found 14 different components with the following counts [20, 19, 18, 18, 16, 16, 15, 13, 13, 13, 10, 9, 8, 3]
+After re-doing the graph, the component counts is 14 with items [20, 19, 18, 18, 16, 16, 15, 13, 13, 13, 10, 9, 8, 3]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [np.int64(131), np.int64(137), 12, np.int64(143), np.int64(156), 28, np.int64(168), np.int64(43), np.int64(46), np.int64(49), np.int64(178), np.int64(56), np.int64(189), np.int64(63), np.int64(194), np.int64(76), 92, np.int64(93), np.int64(107), np.int64(119)]
+The guessed error in the computation is 0.010638198066351384 with 20 witnesses
+Normalize on axis 2
+
+
+On component 1 with indexs [1, np.int64(134), 17, np.int64(151), np.int64(30), np.int64(32), np.int64(164), np.int64(37), np.int64(45), np.int64(175), np.int64(61), np.int64(193), np.int64(74), np.int64(80), np.int64(97), np.int64(105), np.int64(115), np.int64(120), np.int64(122)]
+The guessed error in the computation is 0.0007380950148213761 with 19 witnesses
+Normalize on axis 13
+
+
+On component 2 with indexs [np.int64(160), np.int64(66), 3, np.int64(163), np.int64(133), np.int64(136), 108, np.int64(176), 18, np.int64(147), np.int64(23), 53, np.int64(86), np.int64(118), np.int64(24), np.int64(90), np.int64(155), np.int64(125)]
+The guessed error in the computation is 0.001181731014726546 with 18 witnesses
+Normalize on axis 12
+
+
+On component 3 with indexs [np.int64(191), np.int64(195), 35, np.int64(41), np.int64(106), np.int64(170), np.int64(171), 13, np.int64(82), 20, np.int64(180), np.int64(181), 150, np.int64(184), 25, 58, np.int64(190), np.int64(127)]
+The guessed error in the computation is 0.00021529177902907676 with 18 witnesses
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+Normalize on axis 9
+
+
+On component 4 with indexs [0, np.int64(96), np.int64(130), np.int64(196), np.int64(165), np.int64(70), np.int64(36), 38, np.int64(142), np.int64(16), np.int64(148), np.int64(54), np.int64(183), np.int64(87), np.int64(185), np.int64(29)]
+The guessed error in the computation is 7.847422321054232e-05 with 16 witnesses
+Normalize on axis 13
+
+
+On component 5 with indexs [np.int64(69), 6, np.int64(166), np.int64(72), np.int64(73), np.int64(138), np.int64(11), 7, np.int64(141), np.int64(140), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00017135361140124296 with 16 witnesses
+Normalize on axis 1
+
+
+On component 6 with indexs [np.int64(68), np.int64(154), 8, np.int64(167), np.int64(75), np.int64(172), np.int64(109), 139, np.int64(145), np.int64(179), np.int64(52), np.int64(182), np.int64(186), np.int64(123), np.int64(157)]
+The guessed error in the computation is 7.256281686065721e-05 with 15 witnesses
+Normalize on axis 8
+
+
+On component 7 with indexs [np.int64(128), np.int64(65), np.int64(132), 5, np.int64(71), np.int64(10), np.int64(44), np.int64(146), 19, np.int64(116), np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0017811684274022287 with 13 witnesses
+Normalize on axis 5
+
+
+On component 8 with indexs [np.int64(159), np.int64(98), np.int64(100), np.int64(101), np.int64(135), 9, np.int64(47), np.int64(144), 15, np.int64(83), np.int64(117), np.int64(152), np.int64(95)]
+The guessed error in the computation is 0.000772166396574514 with 13 witnesses
+Normalize on axis 14
+
+
+On component 9 with indexs [np.int64(34), np.int64(39), np.int64(104), np.int64(169), np.int64(174), np.int64(177), 113, np.int64(84), np.int64(149), 22, np.int64(57), np.int64(188), np.int64(126)]
+The guessed error in the computation is 0.005828055908691709 with 13 witnesses
+Normalize on axis 3
+
+
+On component 10 with indexs [np.int64(192), np.int64(33), np.int64(102), np.int64(59), np.int64(42), np.int64(187), np.int64(85), 21, np.int64(27), np.int64(124)]
+The guessed error in the computation is 0.0003133146523285543 with 10 witnesses
+Normalize on axis 0
+
+
+On component 11 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 12 with indexs [np.int64(67), 4, np.int64(99), np.int64(14), np.int64(78), np.int64(81), np.int64(114), np.int64(158)]
+The guessed error in the computation is 9.616508909933083e-05 with 8 witnesses
+Normalize on axis 14
+
+
+On component 13 with indexs [np.int64(153), np.int64(161), 103]
+The guessed error in the computation is 5.9722060607977304e-05 with 3 witnesses
+Normalize on axis 13
+Got NaN, need more data 0.015706806282722512 0.06666666666666667
+We have not explored all neurons. Do more random search 13 1 15
+Graph solving failed; get more points
+Got partial solution with shape (13, 15)
+hidden (20, 15)
+hidden (19, 15)
+hidden (18, 15)
+hidden (18, 15)
+hidden (16, 15)
+hidden (16, 15)
+hidden (15, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (13, 15)
+hidden (10, 15)
+hidden (9, 15)
+hidden (8, 15)
+At this iteration I have 197 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Start another sweep
+Total intersections found 30
+delta queries 0
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  212 critical points
+After filtering duplicates we're down to  212 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.018456220626831055
+Graph search found 15 different components with the following counts [21, 19, 19, 19, 18, 17, 16, 15, 15, 13, 10, 9, 9, 5, 3]
+After re-doing the graph, the component counts is 15 with items [21, 19, 19, 19, 18, 17, 16, 15, 15, 13, 10, 9, 9, 5, 3]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [131, np.int64(137), 12, np.int64(143), 28, np.int64(156), np.int64(168), np.int64(43), np.int64(46), np.int64(49), np.int64(178), np.int64(56), np.int64(189), np.int64(63), np.int64(194), np.int64(201), np.int64(76), 92, np.int64(93), np.int64(107), np.int64(119)]
+The guessed error in the computation is 0.010608027925496647 with 21 witnesses
+Normalize on axis 2
+
+
+On component 1 with indexs [1, np.int64(134), 17, np.int64(151), np.int64(30), np.int64(32), np.int64(164), np.int64(37), np.int64(45), np.int64(175), np.int64(61), np.int64(193), np.int64(74), np.int64(80), np.int64(97), np.int64(105), np.int64(115), np.int64(120), np.int64(122)]
+The guessed error in the computation is 0.0007380950148213761 with 19 witnesses
+Normalize on axis 13
+
+
+On component 2 with indexs [3, np.int64(133), np.int64(136), 18, np.int64(147), np.int64(23), np.int64(24), np.int64(155), np.int64(160), np.int64(163), np.int64(176), np.int64(53), np.int64(66), np.int64(210), np.int64(86), np.int64(90), np.int64(108), np.int64(118), np.int64(125)]
+The guessed error in the computation is 0.001180169163569548 with 19 witnesses
+Normalize on axis 12
+
+
+On component 3 with indexs [13, 20, 150, 25, 35, np.int64(41), np.int64(170), np.int64(171), np.int64(180), np.int64(181), np.int64(184), 58, np.int64(190), np.int64(191), np.int64(195), np.int64(199), np.int64(82), np.int64(106), np.int64(127)]
+The guessed error in the computation is 0.0002125654589450396 with 19 witnesses
+Normalize on axis 9
+
+
+On component 4 with indexs [0, np.int64(96), np.int64(130), np.int64(36), np.int64(165), np.int64(70), np.int64(196), np.int64(38), np.int64(200), np.int64(205), np.int64(142), np.int64(16), np.int64(148), np.int64(54), np.int64(183), np.int64(87), np.int64(185), np.int64(29)]
+The guessed error in the computation is 7.720723570994042e-05 with 18 witnesses
+Normalize on axis 13
+
+
+On component 5 with indexs [np.int64(68), np.int64(154), 8, np.int64(167), np.int64(75), np.int64(172), np.int64(109), np.int64(139), np.int64(207), np.int64(208), np.int64(145), 179, np.int64(52), np.int64(182), np.int64(186), np.int64(123), np.int64(157)]
+The guessed error in the computation is 5.430126551846104e-05 with 17 witnesses
+Normalize on axis 14
+
+
+On component 6 with indexs [np.int64(69), 6, np.int64(166), np.int64(72), np.int64(73), np.int64(138), np.int64(11), 7, np.int64(141), np.int64(140), np.int64(79), np.int64(112), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00017135361140124296 with 16 witnesses
+Normalize on axis 1
+
+
+On component 7 with indexs [np.int64(128), np.int64(65), np.int64(132), 5, np.int64(71), np.int64(10), np.int64(44), np.int64(204), np.int64(146), np.int64(211), np.int64(116), 19, np.int64(55), np.int64(26), np.int64(94)]
+The guessed error in the computation is 0.0017614319753492952 with 15 witnesses
+Normalize on axis 5
+
+
+On component 8 with indexs [np.int64(34), np.int64(197), np.int64(198), np.int64(39), np.int64(104), np.int64(169), np.int64(174), np.int64(177), 113, np.int64(84), np.int64(149), 22, np.int64(57), np.int64(188), np.int64(126)]
+The guessed error in the computation is 0.005825710060602915 with 15 witnesses
+Normalize on axis 3
+
+
+On component 9 with indexs [np.int64(159), np.int64(98), np.int64(100), np.int64(101), np.int64(135), 9, np.int64(47), np.int64(144), 15, np.int64(83), np.int64(117), np.int64(152), np.int64(95)]
+The guessed error in the computation is 0.000772166396574514 with 13 witnesses
+Normalize on axis 14
+
+
+On component 10 with indexs [np.int64(192), np.int64(33), np.int64(102), np.int64(27), np.int64(59), np.int64(42), np.int64(85), 21, np.int64(187), np.int64(124)]
+The guessed error in the computation is 0.0003133146523285543 with 10 witnesses
+Normalize on axis 0
+
+
+On component 11 with indexs [np.int64(67), 4, np.int64(99), np.int64(203), np.int64(78), np.int64(14), np.int64(81), np.int64(114), np.int64(158)]
+The guessed error in the computation is 0.00010703195907282859 with 9 witnesses
+Normalize on axis 14
+
+
+On component 12 with indexs [np.int64(64), np.int64(89), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(88), np.int64(121), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 13 with indexs [162, np.int64(202), 173, np.int64(206), np.int64(209)]
+The guessed error in the computation is 7.160950449372656e-05 with 5 witnesses
+Normalize on axis 5
+Got NaN, need more data 0.02403846153846154 0.06666666666666667
+
+
+On component 14 with indexs [np.int64(153), np.int64(161), 103]
+The guessed error in the computation is 5.9722060607977304e-05 with 3 witnesses
+Normalize on axis 13
+Got NaN, need more data 0.014423076923076924 0.06666666666666667
+At this point, we just assume the neuron must be dead
+Need to raise a previously generated failure.
+Graph solving failed because we didn't explore all sides of at least one neuron
+Fall back to the hyperplane following algorithm in order to get more data
+Start looking for critical point
+Init
+<generator object compute_layer_values.<locals>.mine at 0x177b169e0>
+Yielding a point
+Tick
+Found layer N point at  [  -1.38640381  -13.5858891   140.89482282 -137.2500087    51.20295007
+   13.79078236  127.04460651 -146.80357344 -146.14545965  147.91500488] True
+Done looking for critical point
+Yielding a point
+Tick
+Found layer N point at  [ 104.19703775  123.69499877   46.45993301  -46.31362152   50.21263902
+  116.17201194  -95.70426676 -145.46688476  -83.62400453  -69.48560436] True
+Yielding a point
+Tick
+Found layer N point at  [ 177.06904688 -150.51065672  406.93776185  -38.79118849   25.94796512
+   64.94382543 -141.00905937 -315.54858949   13.58893498 -103.87292019] True
+No more to give!
+============================================================
+RESTART SEARCH 2 -10
+[  -1.38640381  -13.5858891   140.89482282 -137.2500087    51.20295007
+   13.79078236  127.04460651 -146.80357344 -146.14545965  147.91500488]
+
+
+
+--------------------------------------------------
+Number of collected points 0
+Choose a new direction to travel in
+Progress 80.0%
+Counts on each side of each neuron
+[3 3 2 2 1 1 2 0 0 2 1 1 2 3 0]
+[0 0 1 1 2 2 1 3 3 1 2 2 1 0 3]
+Try to explore the other side of neuron 7
+Changing 14 to flip sides because mean is 0.0
+Value 0.0014526411116548843
+Choose a new direction to travel in
+Progress 80.0%
+Counts on each side of each neuron
+[3 3 2 2 1 1 2 0 0 2 1 1 2 3 0]
+[0 0 1 1 2 2 1 3 3 1 2 2 1 0 3]
+Try to explore the other side of neuron 7
+Changing 14 to flip sides because mean is 0.0
+Value 0.0019771399199726147
+Distance we need to step: 131.40278523926773
+Now try to find the continuation direction
+	Start the box step with size 0
+	Try stepping away 0
+	Try stepping away 1
+	Try stepping away 2
+	Try stepping away 3
+	Try stepping away 4
+	Try stepping away 5
+	Try stepping away 6
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Try stepping away 16
+	Try stepping away 17
+	Try stepping away 18
+	Move to 28971 versus 28970 False
+	Succeeded
+	Move to 28971 versus 28970 True
+	Move to 28971 versus 28970 True
+	Move to 28970 versus 28970 False
+Value at multiple: 0.0
+Value at success: 32.36545581330222
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 2
+Choose a new direction to travel in
+Progress 86.0%
+Counts on each side of each neuron
+[4 4 3 2 1 1 3 0 0 3 1 2 2 4 1]
+[0 0 1 2 3 3 1 4 4 1 3 2 2 0 3]
+Try to explore the other side of neuron 7
+Changing 7 to flip sides because mean is 0.0
+Value 0.008353051568292358
+Choose a new direction to travel in
+Progress 86.0%
+Counts on each side of each neuron
+[4 4 3 2 1 1 3 0 0 3 1 2 2 4 1]
+[0 0 1 2 3 3 1 4 4 1 3 2 2 0 3]
+Try to explore the other side of neuron 7
+Changing 7 to flip sides because mean is 0.0
+Value 0.007947699637497863
+Distance we need to step: 41.57787132618494
+Now try to find the continuation direction
+	Start the box step with size 17
+	Try stepping away 10
+	Try stepping away 17
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 17
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 15
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 15
+	Try stepping away 16
+	Try stepping away 17
+	Try stepping away 18
+	Move to 29099 versus 28971 True
+	Move to 29099 versus 28971 False
+	Succeeded
+	Move to 28971 versus 28971 False
+	Move to 29099 versus 28971 True
+Value at multiple: 2.2737367544323206e-12
+Value at success: 15.603005203804514
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 4
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[5 5 4 2 1 1 4 1 0 4 1 3 2 5 2]
+[0 0 1 3 4 4 1 4 5 1 4 2 3 0 3]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value -2592.4856567603897
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[5 5 4 2 1 1 4 1 0 4 1 3 2 5 2]
+[0 0 1 3 4 4 1 4 5 1 4 2 3 0 3]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value -3921.1929248581428
+Distance we need to step: 169.34925520619186
+Now try to find the continuation direction
+	Start the box step with size 17
+	Try stepping away 10
+	Try stepping away 17
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 15
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 15
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 13
+	Try stepping away 10
+	Try stepping away 13
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 11
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Try stepping away 16
+	Try stepping away 17
+	Move to 31147 versus 29099 True
+	Move to 31147 versus 29099 True
+	Move to 29099 versus 29099 False
+	Move to 31147 versus 29099 False
+	Succeeded
+Value at multiple: -3921.1942196726945
+Value at success: -4039.1057357268933
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 6
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[6 6 5 3 1 1 5 2 0 5 1 4 2 6 3]
+[0 0 1 3 5 5 1 4 6 1 5 2 4 0 3]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value 0.005773793478283551
+Distance we need to step: 69.9558401511918
+Now try to find the continuation direction
+	Start the box step with size 16
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 16
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 14
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 12
+	Try stepping away 10
+	Try stepping away 12
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 12
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 10
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Move to 31211 versus 31147 True
+	Move to 31211 versus 31147 False
+	Succeeded
+	Move to 31147 versus 31147 False
+	Move to 31211 versus 31147 True
+Value at multiple: -9.094947017729282e-13
+Value at success: 5.377901319169268
+Adding the points to the set of known good points
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+
+
+
+--------------------------------------------------
+Number of collected points 8
+Choose a new direction to travel in
+Progress 100.0%
+Counts on each side of each neuron
+[7 7 6 4 1 1 6 3 1 6 1 5 2 7 4]
+[0 0 1 3 6 6 1 4 6 1 6 2 5 0 3]
+Try to explore the other side of neuron 4
+Changing 8 to flip sides because mean is 0.125
+Value 1156.6882326247364
+Distance we need to step: 42.13216133516067
+Now try to find the continuation direction
+	Start the box step with size 11
+	Try stepping away 10
+	Try stepping away 11
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 9
+	Try stepping away 9
+	Try stepping away 10
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Move to 31210 versus 31211 False
+	Succeeded
+	Move to 31211 versus 31211 True
+	Move to 31211 versus 31211 True
+	Move to 31211 versus 31211 False
+Value at multiple: 1156.6854275576993
+Value at success: 1141.2422597752857
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 10
+Have all the points we need (1)
+0
+[7 7 6 4 1 1 6 3 1 6 1 5 2 7 4]
+[0 0 1 3 6 6 1 4 6 1 6 2 5 0 3]
+[10 10 10  4  0  0 10  6  2 10  0 10  0 10  8]
+[ 0  0  0  6 10 10  0  4  8  0 10  0 10  0  2]
+Counts
+[12 12 11  6  1  1 11  6  2 11  1 10  2 12  8]
+[ 0  0  1  6 11 11  1  6 10  1 11  2 10  0  4]
+SHOULD BE DONE? True True
+Abort
+Now have critical points 12
+Query count 0
+Created a list
+Done map, now collect results
+Took 0.0004649162292480469 seconds
+Attempts at solution: 1 out of 1
+std 0.0
+median 4.206290102030221e-16
+min 4.206290102030221e-16
+Add more 12
+Gathering 1000000.0 critical points
+Up to 1 of 1000000.0
+Up to 2 of 1000000.0
+Up to 3 of 1000000.0
+Up to 4 of 1000000.0
+Up to 5 of 1000000.0
+Up to 6 of 1000000.0
+Up to 7 of 1000000.0
+Up to 8 of 1000000.0
+Up to 9 of 1000000.0
+Up to 10 of 1000000.0
+Up to 11 of 1000000.0
+Up to 12 of 1000000.0
+Done adding
+At this iteration I have 224 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Start another sweep
+Total intersections found 30
+delta queries 0
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Up to 10 of 15
+Up to 11 of 15
+Start another sweep
+Total intersections found 36
+delta queries 0
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  239 critical points
+After filtering duplicates we're down to  236 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.018716812133789062
+Graph search found 15 different components with the following counts [22, 22, 20, 19, 19, 18, 17, 16, 15, 14, 11, 10, 9, 9, 7]
+After re-doing the graph, the component counts is 15 with items [22, 22, 20, 19, 19, 18, 17, 16, 15, 14, 11, 10, 9, 9, 7]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [3, np.int64(132), np.int64(135), np.int64(146), 18, np.int64(23), np.int64(24), np.int64(153), np.int64(158), np.int64(160), np.int64(173), 53, np.int64(66), np.int64(207), np.int64(86), np.int64(90), np.int64(224), np.int64(228), np.int64(233), 107, np.int64(117), np.int64(124)]
+The guessed error in the computation is 0.0010599902830804749 with 22 witnesses
+Normalize on axis 10
+
+
+On component 1 with indexs [np.int64(130), np.int64(136), 12, np.int64(142), 154, 28, np.int64(165), np.int64(43), np.int64(46), np.int64(175), 49, np.int64(56), np.int64(186), np.int64(191), np.int64(63), np.int64(198), np.int64(76), 92, np.int64(93), np.int64(229), np.int64(106), np.int64(118)]
+The guessed error in the computation is 0.012499800893833804 with 22 witnesses
+Normalize on axis 2
+
+
+On component 2 with indexs [1, np.int64(133), 17, np.int64(150), np.int64(30), np.int64(32), np.int64(161), np.int64(37), np.int64(172), np.int64(45), np.int64(61), np.int64(190), np.int64(74), np.int64(80), np.int64(97), np.int64(226), np.int64(104), np.int64(114), np.int64(119), np.int64(121)]
+The guessed error in the computation is 0.0007285077950938178 with 20 witnesses
+Normalize on axis 13
+
+
+On component 3 with indexs [0, np.int64(129), np.int64(141), np.int64(16), np.int64(147), np.int64(29), np.int64(162), np.int64(36), np.int64(38), np.int64(180), np.int64(182), np.int64(54), np.int64(193), np.int64(197), np.int64(70), np.int64(202), np.int64(87), np.int64(96), np.int64(232)]
+The guessed error in the computation is 7.570157169158737e-05 with 19 witnesses
+Normalize on axis 13
+
+
+On component 4 with indexs [13, 20, 149, 25, 35, np.int64(167), np.int64(168), np.int64(41), np.int64(177), np.int64(178), np.int64(181), 58, np.int64(187), np.int64(188), np.int64(192), np.int64(196), np.int64(82), np.int64(105), np.int64(126)]
+The guessed error in the computation is 0.0002125654589450396 with 19 witnesses
+Normalize on axis 9
+
+
+On component 5 with indexs [np.int64(68), np.int64(164), 8, np.int64(169), np.int64(138), np.int64(75), np.int64(204), np.int64(108), np.int64(205), np.int64(144), np.int64(176), np.int64(179), np.int64(52), np.int64(183), np.int64(152), np.int64(122), np.int64(155), np.int64(222)]
+The guessed error in the computation is 5.010772491435139e-05 with 18 witnesses
+Normalize on axis 14
+
+
+On component 6 with indexs [np.int64(225), np.int64(163), np.int64(69), 6, 7, np.int64(72), np.int64(137), np.int64(73), np.int64(11), np.int64(140), np.int64(139), np.int64(79), np.int64(111), np.int64(50), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00016722488084689423 with 17 witnesses
+Normalize on axis 1
+
+
+On component 7 with indexs [np.int64(34), np.int64(185), np.int64(194), np.int64(195), np.int64(166), np.int64(39), np.int64(103), np.int64(171), np.int64(235), np.int64(174), 112, np.int64(84), np.int64(148), 22, np.int64(57), np.int64(125)]
+The guessed error in the computation is 0.005623906344180828 with 16 witnesses
+Normalize on axis 8
+
+
+On component 8 with indexs [np.int64(65), np.int64(131), 5, np.int64(71), np.int64(201), np.int64(10), np.int64(44), np.int64(208), np.int64(145), np.int64(115), 19, 55, np.int64(26), np.int64(94), np.int64(127)]
+The guessed error in the computation is 0.0017614319753492952 with 15 witnesses
+Normalize on axis 5
+
+
+On component 9 with indexs [np.int64(98), np.int64(100), np.int64(101), np.int64(134), 9, np.int64(47), np.int64(143), 15, np.int64(83), np.int64(116), np.int64(157), np.int64(151), np.int64(221), np.int64(95)]
+The guessed error in the computation is 0.000766123586502257 with 14 witnesses
+Normalize on axis 13
+
+
+On component 10 with indexs [np.int64(33), np.int64(102), np.int64(27), np.int64(42), np.int64(123), np.int64(85), 21, np.int64(184), np.int64(59), np.int64(189), np.int64(223)]
+The guessed error in the computation is 0.0003192387783658296 with 11 witnesses
+Normalize on axis 0
+
+
+On component 11 with indexs [209, 210, np.int64(211), np.int64(212), np.int64(213), np.int64(214), np.int64(215), np.int64(216), np.int64(217), np.int64(218)]
+The guessed error in the computation is 0.00011337884296635462 with 10 witnesses
+Normalize on axis 1
+Got NaN, need more data 0.043859649122807015 0.06666666666666667
+
+
+On component 12 with indexs [np.int64(99), np.int64(67), 4, np.int64(200), np.int64(78), np.int64(14), np.int64(81), np.int64(113), np.int64(156)]
+The guessed error in the computation is 0.00010703195907282859 with 9 witnesses
+Normalize on axis 14
+
+
+On component 13 with indexs [np.int64(64), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(120), np.int64(89), np.int64(88), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 14 with indexs [np.int64(227), np.int64(199), np.int64(234), np.int64(203), 170, np.int64(206), 159]
+The guessed error in the computation is 7.59061449788264e-05 with 7 witnesses
+Normalize on axis 5
+At this point, we just assume the neuron must be dead
+Need to raise a previously generated failure.
+Graph solving failed because we didn't explore all sides of at least one neuron
+Fall back to the hyperplane following algorithm in order to get more data
+Start looking for critical point
+Init
+<generator object compute_layer_values.<locals>.mine at 0x16939dc80>
+Yielding a point
+Tick
+Found layer N point at  [ 104.19703775  123.69499877   46.45993301  -46.31362152   50.21263902
+  116.17201194  -95.70426676 -145.46688476  -83.62400453  -69.48560436] True
+Done looking for critical point
+Yielding a point
+Tick
+Found layer N point at  [ 177.06904688 -150.51065672  406.93776185  -38.79118849   25.94796512
+   64.94382543 -141.00905937 -315.54858949   13.58893498 -103.87292019] True
+Yielding a point
+Tick
+Found layer N point at  [  -1.38640381  -13.5858891   140.89482282 -137.2500087    51.20295007
+   13.79078236  127.04460651 -146.80357344 -146.14545965  147.91500488] True
+Yielding a point
+Tick
+Found layer N point at  [ -63.99707798  -20.2936096    69.58926788 -126.62815577  -11.34386134
+   -5.41264351   86.13133216 -132.28228165 -121.67258256  157.30550894] True
+Yielding a point
+Tick
+Found layer N point at  [ -61.46819513  -32.17285434   57.71002314 -114.74891103   -8.8149785
+    6.46660123   88.66021501 -134.81116449 -109.79333782  159.83439178] True
+Yielding a point
+Tick
+Found layer N point at  [ -70.88419857  -34.16272183   52.49180301 -113.64019915   11.02259375
+   -3.6590055    83.72897426 -110.32602622  -99.95713127  179.50762409] True
+Yielding a point
+Tick
+Found layer N point at  [ -72.7166857   -35.99520896   54.32429013 -111.80771202    9.07807668
+   -5.60352257   85.56146139 -112.27054329  -98.0126142   181.45214116] True
+Yielding a point
+Tick
+Found layer N point at  [-110.37434832  -46.53929549   54.32403553 -143.58549086   48.23059001
+  -60.83173564  -37.94880203  -88.36739591 -170.10248492  161.08756175] True
+Yielding a point
+Tick
+Found layer N point at  [-110.3535659   -46.56007791   57.44235855 -140.46716784   48.20980759
+  -60.85251806  -37.92801961  -91.48571893 -173.22080794  157.96923872] True
+Yielding a point
+Tick
+Found layer N point at  [-125.69401726  -77.77697079   36.49053493 -134.95391194   78.67465074
+  -79.82661578  -64.03942934  -62.65928053 -161.20381071  172.504029  ] True
+No more to give!
+============================================================
+RESTART SEARCH 9 -10
+[ 104.19703775  123.69499877   46.45993301  -46.31362152   50.21263902
+  116.17201194  -95.70426676 -145.46688476  -83.62400453  -69.48560436]
+
+
+
+--------------------------------------------------
+Number of collected points 0
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[10 10  9  4  1  1  9  4  0  9  1  8  2 10  6]
+[ 0  0  1  6  9  9  1  6 10  1  9  2  8  0  4]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value -6596.266889144617
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[10 10  9  4  1  1  9  4  0  9  1  8  2 10  6]
+[ 0  0  1  6  9  9  1  6 10  1  9  2  8  0  4]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value -3350.3497096256556
+Distance we need to step: 248.01291073759973
+Now try to find the continuation direction
+	Start the box step with size 0
+	Try stepping away 0
+	Try stepping away 1
+	Try stepping away 2
+	Try stepping away 3
+	Try stepping away 4
+	Try stepping away 5
+	Try stepping away 6
+	Try stepping away 7
+	Try stepping away 8
+	Try stepping away 9
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Move to 31238 versus 31238 True
+	Move to 31494 versus 31238 False
+	Succeeded
+	Move to 31238 versus 31238 True
+	Move to 31238 versus 31238 False
+Value at multiple: -3350.354610435915
+Value at success: -3373.606331531611
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 2
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[11 11 10  5  1  2 10  4  0  9  1  8  3 11  6]
+[ 0  0  1  6 10  9  1  7 11  2 10  3  8  0  5]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value -1106.4086262585704
+Distance we need to step: 65.93054129277522
+Now try to find the continuation direction
+	Start the box step with size 13
+	Try stepping away 10
+	Try stepping away 13
+	Try stepping away 14
+	Move to 31622 versus 31494 True
+	Move to 31494 versus 31494 False
+	Move to 31622 versus 31494 True
+	Move to 31622 versus 31494 False
+	Succeeded
+Value at multiple: -1106.4121733168815
+Value at success: -1087.452926116709
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 4
+Choose a new direction to travel in
+Progress 93.0%
+Counts on each side of each neuron
+[12 12 11  6  1  3 11  5  0  9  1  8  4 12  6]
+[ 0  0  1  6 11  9  1  7 12  3 11  4  8  0  6]
+Try to explore the other side of neuron 8
+Changing 8 to flip sides because mean is 0.0
+Value 0.005360125802553739
+Distance we need to step: 20.287824691982127
+Now try to find the continuation direction
+	Start the box step with size 13
+	Try stepping away 10
+	Try stepping away 13
+	We didn't get enough inner points
+	Try with smaller step
+	Try stepping away 10
+	Try stepping away 13
+	We didn't get enough inner points
+	It didn't work a second time
+	Start the box step with size 11
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Move to 31686 versus 31622 False
+	Succeeded
+	Move to 31622 versus 31622 False
+	Move to 31686 versus 31622 True
+	Move to 31686 versus 31622 True
+Value at multiple: 2.2737367544323206e-13
+Value at success: 39.07903173892964
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 6
+Choose a new direction to travel in
+Progress 100.0%
+Counts on each side of each neuron
+[13 13 12  7  1  4 12  6  1  9  1  8  5 13  6]
+[ 0  0  1  6 12  9  1  7 12  4 12  5  8  0  7]
+Try to explore the other side of neuron 4
+Changing 8 to flip sides because mean is 0.07142857142857142
+Value 839.98214488256
+Distance we need to step: 30.711639886348877
+Now try to find the continuation direction
+	Start the box step with size 11
+	Try stepping away 10
+	Try stepping away 11
+	Try stepping away 12
+	Try stepping away 13
+	Try stepping away 14
+	Try stepping away 15
+	Move to 27590 versus 31686 True
+	Move to 27590 versus 31686 False
+	Succeeded
+	Move to 31686 versus 31686 False
+	Move to 27590 versus 31686 True
+Value at multiple: 839.9796908386403
+Value at success: 850.5516367330622
+Adding the points to the set of known good points
+
+
+
+--------------------------------------------------
+Number of collected points 8
+Have all the points we need (1)
+0
+[13 13 12  7  1  4 12  6  1  9  1  8  5 13  6]
+[ 0  0  1  6 12  9  1  7 12  4 12  5  8  0  7]
+[8 8 8 8 0 8 6 4 2 0 0 0 8 8 0]
+[0 0 0 0 8 0 2 4 6 8 8 8 0 0 8]
+Counts
+[17 17 16 11  1  8 15  8  2  9  1  8  9 17  6]
+[ 0  0  1  6 16  9  2  9 15  8 16  9  8  0 11]
+SHOULD BE DONE? True True
+Abort
+Now have critical points 17
+Query count 0
+Created a list
+Done map, now collect results
+Took 0.0004260540008544922 seconds
+Attempts at solution: 1 out of 1
+std 0.0
+median 3.785817160122448e-11
+min 3.785817160122448e-11
+Add more 17
+Gathering 1000000.0 critical points
+Up to 1 of 1000000.0
+Up to 2 of 1000000.0
+Up to 3 of 1000000.0
+Up to 4 of 1000000.0
+Up to 5 of 1000000.0
+Up to 6 of 1000000.0
+Up to 7 of 1000000.0
+Up to 8 of 1000000.0
+Up to 9 of 1000000.0
+Up to 10 of 1000000.0
+Up to 11 of 1000000.0
+Up to 12 of 1000000.0
+Up to 13 of 1000000.0
+Up to 14 of 1000000.0
+Up to 15 of 1000000.0
+Up to 16 of 1000000.0
+Up to 17 of 1000000.0
+Done adding
+At this iteration I have 253 critical points
+Gathering 15 critical points
+Up to 1 of 15
+Up to 2 of 15
+Up to 3 of 15
+Up to 4 of 15
+Up to 5 of 15
+Up to 6 of 15
+Up to 7 of 15
+Up to 8 of 15
+Up to 9 of 15
+Start another sweep
+Total intersections found 27
+delta queries 0
+Up to 10 of 15
+Up to 11 of 15
+Up to 12 of 15
+Up to 13 of 15
+Up to 14 of 15
+Up to 15 of 15
+Query count after that search: 0
+And now up to  268 critical points
+After filtering duplicates we're down to  258 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+/Users/wyj/6003-gp/cryptanalytic-model-extraction/src/layer_recovery.py:321: RuntimeWarning: All-NaN slice encountered
+  medians = np.nanmedian(ratio_evidence, axis=2)
+/Users/wyj/Library/Python/3.9/lib/python/site-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+0.019285917282104492
+Graph search found 15 different components with the following counts [24, 23, 21, 21, 21, 21, 18, 17, 17, 16, 14, 13, 9, 9, 7]
+After re-doing the graph, the component counts is 15 with items [24, 23, 21, 21, 21, 21, 18, 17, 17, 16, 14, 13, 9, 9, 7]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [3, np.int64(132), np.int64(135), np.int64(146), 18, np.int64(23), np.int64(24), np.int64(153), np.int64(158), np.int64(160), np.int64(173), 53, np.int64(66), np.int64(207), np.int64(86), np.int64(214), np.int64(218), np.int64(90), np.int64(223), 107, np.int64(117), np.int64(247), np.int64(124), np.int64(254)]
+The guessed error in the computation is 0.0008137391032920285 with 24 witnesses
+Normalize on axis 9
+
+
+On component 1 with indexs [np.int64(130), np.int64(136), 12, np.int64(142), 154, 28, np.int64(165), np.int64(43), np.int64(46), np.int64(175), np.int64(49), np.int64(56), np.int64(186), np.int64(191), np.int64(63), np.int64(198), np.int64(76), np.int64(219), 92, np.int64(93), np.int64(106), np.int64(118), np.int64(255)]
+The guessed error in the computation is 0.012502040469289724 with 23 witnesses
+Normalize on axis 2
+
+
+On component 2 with indexs [0, np.int64(129), np.int64(141), np.int64(16), np.int64(147), np.int64(29), np.int64(162), np.int64(36), np.int64(38), np.int64(180), np.int64(182), np.int64(54), np.int64(193), np.int64(197), np.int64(70), np.int64(202), np.int64(87), np.int64(222), np.int64(96), np.int64(251), np.int64(252)]
+The guessed error in the computation is 7.46188096522743e-05 with 21 witnesses
+Normalize on axis 13
+
+
+On component 3 with indexs [1, np.int64(257), np.int64(133), 17, np.int64(150), np.int64(30), np.int64(32), np.int64(161), np.int64(37), np.int64(172), np.int64(45), np.int64(61), np.int64(190), np.int64(74), np.int64(80), np.int64(216), np.int64(97), np.int64(104), np.int64(114), np.int64(119), np.int64(121)]
+The guessed error in the computation is 0.0006017898457311415 with 21 witnesses
+Normalize on axis 13
+
+
+On component 4 with indexs [np.int64(256), 8, 138, np.int64(144), np.int64(152), np.int64(155), np.int64(164), np.int64(169), np.int64(176), 179, np.int64(52), np.int64(183), np.int64(68), np.int64(75), np.int64(204), np.int64(205), np.int64(212), np.int64(108), np.int64(243), np.int64(249), np.int64(122)]
+The guessed error in the computation is 4.1968170969103324e-05 with 21 witnesses
+Normalize on axis 14
+
+
+On component 5 with indexs [13, 20, 149, 25, 35, np.int64(167), np.int64(168), np.int64(41), np.int64(177), np.int64(178), np.int64(181), 58, np.int64(187), np.int64(188), np.int64(192), np.int64(196), np.int64(82), np.int64(105), np.int64(244), np.int64(245), np.int64(126)]
+The guessed error in the computation is 0.00018305665392568532 with 21 witnesses
+Normalize on axis 6
+
+
+On component 6 with indexs [128, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, np.int64(239), np.int64(240), np.int64(241), np.int64(242)]
+The guessed error in the computation is 0.0008152879819031387 with 18 witnesses
+Normalize on axis 1
+
+
+On component 7 with indexs [np.int64(163), np.int64(69), 6, 7, np.int64(72), np.int64(73), np.int64(137), np.int64(11), np.int64(140), np.int64(139), np.int64(79), np.int64(111), np.int64(50), np.int64(215), np.int64(91), 60, np.int64(62)]
+The guessed error in the computation is 0.00016722488084689423 with 17 witnesses
+Normalize on axis 1
+
+
+On component 8 with indexs [np.int64(225), np.int64(34), np.int64(185), np.int64(194), np.int64(195), np.int64(166), np.int64(39), np.int64(103), np.int64(171), np.int64(174), 112, np.int64(84), np.int64(148), 22, np.int64(246), np.int64(57), np.int64(125)]
+The guessed error in the computation is 0.005583224553806587 with 17 witnesses
+Normalize on axis 8
+
+
+On component 9 with indexs [np.int64(65), np.int64(131), np.int64(26), 5, np.int64(71), np.int64(201), np.int64(10), np.int64(44), np.int64(208), np.int64(145), np.int64(115), 19, np.int64(55), np.int64(250), np.int64(94), np.int64(127)]
+The guessed error in the computation is 0.0017589905747629996 with 16 witnesses
+Normalize on axis 5
+
+
+On component 10 with indexs [np.int64(98), np.int64(100), np.int64(101), np.int64(134), 9, np.int64(47), np.int64(143), 15, np.int64(83), np.int64(211), np.int64(116), np.int64(151), np.int64(157), np.int64(95)]
+The guessed error in the computation is 0.000766123586502257 with 14 witnesses
+Normalize on axis 13
+
+
+On component 11 with indexs [np.int64(248), np.int64(33), np.int64(102), np.int64(59), np.int64(42), np.int64(123), np.int64(189), 21, np.int64(85), np.int64(213), np.int64(184), np.int64(27), np.int64(253)]
+The guessed error in the computation is 0.00031853963133948726 with 13 witnesses
+Normalize on axis 0
+
+
+On component 12 with indexs [np.int64(67), 4, np.int64(99), np.int64(200), np.int64(14), np.int64(78), np.int64(81), np.int64(113), np.int64(156)]
+The guessed error in the computation is 0.00010703195907282859 with 9 witnesses
+Normalize on axis 14
+
+
+On component 13 with indexs [np.int64(64), np.int64(40), np.int64(77), np.int64(48), np.int64(51), np.int64(120), np.int64(89), np.int64(88), 31]
+The guessed error in the computation is 0.0011703804503166754 with 9 witnesses
+Normalize on axis 13
+
+
+On component 14 with indexs [np.int64(224), np.int64(199), 170, np.int64(203), np.int64(206), np.int64(217), 159]
+The guessed error in the computation is 7.59061449788264e-05 with 7 witnesses
+Normalize on axis 5
+At this point, we just assume the neuron must be dead
+Successfully returning a solution attempt.
+
+Number of critical points per cluster [24, 23, 21, 21, 21, 21, 18, 17, 17, 16, 14, 13, 9, 9, 7]
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 13 with error 0.9780250383667073 ratio -0.00023229399413280354
+Bias check [-0.09212502]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 3.7053 1.7897 1.3162 2.6124 1.5333 1.5361 1.6285 2.4513 1.1179 1.1488 0.9766 1.0174 1.3866 0.9565 1.2123
+	  Got: 1.0000 -14.9004 3.5866 2.8961 -1.7062 6.6464 -6.9774 -0.1242 3.0655 -0.0678 15.2817 -1.5559 -42.9047 3.1124 22.1683
+	 Real: 1.0000 0.3863 1.3364 -0.4423 1.7665 0.8327 -0.9223 0.4927 1.4011 -0.6691 -0.6539 -0.4758 0.5712 -0.0967 -0.7693
+Neuron 1 maps on to neuron 3 with error 0.9911062852503961 ratio 8.193723046869423e-05
+Bias check [0.20941187]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0185 1.9328 1.5602 0.9823 1.0957 1.0022 1.5121 1.1525 1.0844 1.1359 1.2475 1.0911 1.1550 1.5365 1.0325
+	  Got: 1.0000 -81.5525 -0.2551 7.6697 -21.7032 141.2594 -267.6018 62.6586 -70.3245 -6.1178 86.2771 13.7441 185.6979 -157.6240 27.0193
+	 Real: 1.0000 -1.2435 1.7284 -0.2834 1.4674 -1.4730 2.0186 1.4842 0.2500 0.7978 1.4107 1.3496 -1.6337 -2.3220 0.8082
+Neuron 2 maps on to neuron 2 with error 0.8185413990013485 ratio -0.41377503815171257
+Bias check [-0.47963628]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9995 1.0407 0.6700 2.3947 1.0337 1.7381 0.8644 1.0152 2.2438 11.4249 1.8113 6.8321 0.9582 1.1545 1.0327
+	  Got: 1.0000 8.6860 -0.8922 -1.1544 2.7462 2.5481 10.7006 -5.4957 -0.5310 0.5014 -2.2427 -3.4360 -1.5104 -29.2127 -2.4492
+	 Real: 1.0000 -2.6517 1.7411 -0.0203 -1.2617 1.7175 -0.5156 1.2680 -1.8044 -0.7115 -0.9715 0.4988 0.1258 2.2786 0.2081
+Neuron 3 maps on to neuron 0 with error 0.9714001036840461 ratio 0.14363668153529144
+Bias check [-0.22210404]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9436 1.2546 1.1594 0.9864 1.8794 1.3130 1.0736 1.2704 0.9916 0.9476 1.3258 2.5989 4.0250 1.7893 1.1223
+	  Got: 1.0000 153.6511 -3.9066 -0.9552 67.2141 70.8654 -58.5317 -4.6246 -54.5439 -3.3907 -24.8925 -3.0612 -108.6223 153.9156 -56.0809
+	 Real: 1.0000 2.6041 2.2554 1.3964 3.1395 4.5105 -4.3612 -2.8561 6.2833 -9.8934 -4.2593 0.2789 -0.5647 0.7551 1.9396
+Neuron 4 maps on to neuron 5 with error 0.8864617529524456 ratio -0.15768631239216477
+Bias check [-0.01092939]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0637 0.8376 1.0106 2.4052 0.9632 0.7858 0.9706 0.9990 3.6200 0.9404 0.9883 1.0065 0.8599 1.6463 0.9422
+	  Got: 1.0000 -6.2425 2.1699 -1.9549 1.4606 -24.6750 -12.2611 6.2857 8.8631 -0.7468 6.4769 -0.6175 -3.0681 14.2522 -27.0455
+	 Real: 1.0000 1.0869 -0.9536 -0.5466 -1.4457 1.1620 0.3174 1.4233 -0.5405 0.3282 -0.2257 -0.3438 0.1000 -0.4085 0.7373
+Neuron 5 maps on to neuron 14 with error 0.9176854450723834 ratio -0.07766796084283357
+Bias check [-0.30463028]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.8731 0.9899 1.4654 0.8942 1.0570 1.9224 1.9486 0.9992 1.0332 0.9764 3.1587 0.9734 0.9914 0.9619 0.8421
+	  Got: 1.0000 24.3652 1.3114 2.5536 2.2557 17.6882 -7.5965 3.0728 -1.0011 -1.2378 2.3351 1.4518 -8.9229 6.4016 -2.0006
+	 Real: 1.0000 3.1984 0.0188 4.3211 -0.4349 0.7699 -1.4954 0.0184 2.2570 0.5784 1.4650 0.5742 -0.6671 -0.9396 2.3190
+Neuron 6 maps on to neuron 10 with error 0.9355624425072555 ratio 0.16717775166034698
+Bias check [-0.10575348]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.6591 1.6370 0.9576 0.9683 3.0483 10.1521 1.6981 1.0588 0.9457 1.2839 0.8753 0.9582 1.0740 0.9650 0.9859
+	  Got: 1.0000 44.5974 -10.2327 -1.6646 -3.3265 -0.3856 -60.8531 4.8715 -16.5848 0.3976 -0.1758 -2.5912 -15.6948 -44.8119 -56.7564
+	 Real: 1.0000 -0.7126 0.4461 0.9884 -2.4166 -0.7813 1.4582 1.5032 -0.2432 0.7001 0.3735 1.5721 1.1907 1.0579 -0.1459
+Neuron 7 maps on to neuron 14 with error 0.8980184323444128 ratio 0.7512713074684143
+Bias check [1.09244746]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9671 1.0852 1.4917 0.8581 1.6573 1.2989 0.9570 0.9925 1.1357 0.9939 0.9940 0.9745 1.7397 2.2416 0.8064
+	  Got: 1.0000 -24.5830 0.2741 -1.5978 -1.8736 -12.7291 9.6611 4.9159 -0.7503 -0.5478 -6.5939 -1.0581 12.2614 -17.6211 -8.0774
+	 Real: 1.0000 3.1984 0.0188 4.3211 -0.4349 0.7699 -1.4954 0.0184 2.2570 0.5784 1.4650 0.5742 -0.6671 -0.9396 2.3190
+Neuron 8 maps on to neuron 10 with error 0.9835113387670505 ratio 0.026036517571284525
+Bias check [-0.2544202]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 2.4420 1.0031 0.9889 1.5207 1.1058 6.6263 6.3693 0.9696 0.9897 1.1879 0.9673 0.9956 3.1830 1.0513 1.9806
+	  Got: 1.0000 35.8273 1.4722 6.2847 8.9543 58.2768 -4.6575 -0.1361 8.2787 -2.6947 15.1795 3.1881 -58.6862 52.8119 15.4857
+	 Real: 1.0000 -0.7126 0.4461 0.9884 -2.4166 -0.7813 1.4582 1.5032 -0.2432 0.7001 0.3735 1.5721 1.1907 1.0579 -0.1459
+Neuron 9 maps on to neuron 4 with error 0.8895486431997331 ratio 0.13680094480514526
+Bias check [0.55013229]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 2.4611 0.9927 0.9251 1.8576 0.7913 1.3254 2.6192 1.1736 1.0837 1.0390 1.0632 1.0020 1.8151 1.0218 1.2215
+	  Got: 1.0000 116.8498 6.0813 11.7931 11.4696 -44.6945 20.7475 -1.6048 0.3302 -0.5877 -13.9226 -5.7996 -32.8746 37.4490 13.4006
+	 Real: 1.0000 -2.3986 -1.2258 -3.6117 -1.3076 1.6860 -3.9502 1.9626 -3.0361 -2.2749 -0.2320 -0.9824 2.6595 -0.5447 2.5175
+Neuron 10 maps on to neuron 1 with error 0.9622884141179344 ratio 0.14482037593327385
+Bias check [0.9474868]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9760 0.9260 1.0197 0.9863 0.9977 1.1747 1.0322 0.9505 1.0333 1.2784 0.9736 1.0161 1.1598 1.0703 1.2759
+	  Got: 1.0000 -32.1231 -1.2231 -1.6108 -4.4939 12.0841 8.5841 -0.5855 12.0234 1.8860 14.5804 3.0261 19.8239 -23.3601 -21.9883
+	 Real: 1.0000 2.7041 -2.9090 -3.8450 3.4278 0.6316 0.8783 4.9298 -5.0613 -1.0657 -1.9551 2.8294 -2.7993 -5.0874 4.6368
+Neuron 11 maps on to neuron 12 with error 0.8938036550918432 ratio 0.001517813763836231
+Bias check [0.84236696]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0112 7.7177 0.9972 1.0842 1.0541 0.8384 0.8923 1.0016 0.9671 0.9947 1.2681 1.2334 0.7989 1.0754 1.0284
+	  Got: 1.0000 63.1729 -8.6390 -6.6521 12.5973 199.5023 138.0044 -14.1356 -26.5077 -8.8204 -59.4537 17.2931 158.0844 -46.0747 120.4306
+	 Real: 1.0000 1.0414 0.2912 0.3587 0.4631 0.2671 1.6181 -1.2209 1.3742 0.3392 0.6381 0.5621 0.2673 -0.2234 1.2327
+Neuron 12 maps on to neuron 2 with error 0.8237530753680955 ratio -0.235921898456266
+Bias check [-0.9826926]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0893 5.1937 0.6786 1.9053 1.0489 1.8983 0.9768 1.1072 0.9810 1.0033 1.5170 1.2537 0.9464 1.4802 0.9821
+	  Got: 1.0000 -29.5504 -2.1453 -0.7144 -3.2816 10.3396 -11.4471 -0.7083 -5.5960 -0.2999 -2.8725 0.6500 8.6212 -1.7797 15.4558
+	 Real: 1.0000 -2.6517 1.7411 -0.0203 -1.2617 1.7175 -0.5156 1.2680 -1.8044 -0.7115 -0.9715 0.4988 0.1258 2.2786 0.2081
+Neuron 13 maps on to neuron 3 with error 0.9182875289995167 ratio -0.027603819384964
+Bias check [-0.04442316]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.8676 5.1318 25.3364 0.8433 11.7638 1.8958 0.9976 0.9991 1.0348 1.3201 0.9553 0.8917 8.7475 1.1013 0.9585
+	  Got: 1.0000 26.8412 -3.4658 3.0310 4.5501 91.1427 0.3557 -6.0743 6.0803 0.3351 1.1163 -1.5926 -0.4909 18.9042 -3.3241
+	 Real: 1.0000 -1.2435 1.7284 -0.2834 1.4674 -1.4730 2.0186 1.4842 0.2500 0.7978 1.4107 1.3496 -1.6337 -2.3220 0.8082
+Neuron 14 maps on to neuron 2 with error 0.9115295277571837 ratio -0.11350041879193853
+Bias check [0.04772579]
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0547 3.3373 0.8309 1.5381 2.4860 2.2426 1.0706 1.3620 0.8915 1.0258 2.0820 1.7663 16.4076 1.1402 0.9214
+	  Got: 1.0000 120.4288 2.1198 4.0670 4.8688 -63.9936 49.4457 -2.8899 25.1993 1.0565 6.7889 6.4667 13.5897 48.7089 75.2954
+	 Real: 1.0000 -2.6517 1.7411 -0.0203 -1.2617 1.7175 -0.5156 1.2680 -1.8044 -0.7115 -0.9715 0.4988 0.1258 2.2786 0.2081
+Improve the extracted neuron number 0
+1857.734275942782
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 99 critical points
+ITERATION 0 OF 100
+quality 2.1827872842550278e-10 1000000.0
+Compare 0.661645940184826 1.8462742445990443e-10
+soln [-0.09262438  1.38013889 -0.33220305 -0.26824537  0.15803279 -0.61561419
+  0.64627635  0.0115058  -0.28394183  0.00628189 -1.41545914  0.1441136
+  3.97401998 -0.28828853 -2.05332684]
+Improve the extracted neuron number 1
+4432.428100147799
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 90 critical points
+ITERATION 0 OF 100
+quality 8.708411769475788e-11 1000000.0
+Compare 131.94671060726978 8.708411769475788e-11
+soln [-1.42651492e-03  1.16336205e-01  3.63838368e-04 -1.09409678e-02
+  3.09599855e-02 -2.01509095e-01  3.81738964e-01 -8.93853917e-02
+  1.00321167e-01  8.72731030e-03 -1.23076704e-01 -1.96062607e-02
+ -2.64902024e-01  2.24853655e-01 -3.85435896e-02]
+Improve the extracted neuron number 2
+2.5025685689329245
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 7.185008144006133e-11 1000000.0
+Compare 0.0005945871580479434 7.185008144006133e-11
+soln [-0.03198067 -0.27778539  0.02853354  0.03691925 -0.08782398 -0.08149079
+ -0.34221281  0.17575741  0.01698156 -0.01603609  0.07172203  0.10988643
+  0.04830471  0.93424223  0.0783284 ]
+Improve the extracted neuron number 3
+4.971918603978264
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 99 critical points
+ITERATION 0 OF 100
+quality 5.093170329928398e-11 1000000.0
+Compare 0.0005526271079361322 5.093170329928398e-11
+soln [-0.00454434 -0.69824287  0.0177528   0.00434055 -0.30544395 -0.32203667
+  0.26598801  0.02101578  0.24786608  0.01540853  0.1131198   0.01391108
+  0.4936166  -0.69944474  0.25485057]
+Improve the extracted neuron number 4
+4.3304737633782695
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 2.8558133635669947e-10 1000000.0
+Compare 0.0005632053945987536 2.3283064365386963e-10
+soln [-0.16423662  1.02524503 -0.35638062  0.32106853 -0.23988489  4.05253558
+  2.01371342 -1.0323421  -1.45564357  0.12265283 -1.06374094  0.10142041
+  0.5039016  -2.34073299  4.44186032]
+Improve the extracted neuron number 5
+10.951684415330122
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.730313670122996e-10 1000000.0
+Compare 0.0009332372865173966 1.4722445484949276e-10
+soln [-0.03455595 -0.84196088 -0.04531653 -0.08824201 -0.07794706 -0.61123128
+  0.2625029  -0.1061819   0.03459272  0.04277336 -0.08069237 -0.05016731
+  0.30833906 -0.22121431  0.06913139]
+Improve the extracted neuron number 6
+5.918370693267397
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.6143530956469476e-10 1000000.0
+Compare 0.000563166235620971 1.1641532182693481e-10
+soln [-0.04361058 -1.94491907  0.44625402  0.07259338  0.14507257  0.01681455
+  2.65383973 -0.21244886  0.723271   -0.01734068  0.00766848  0.11300397
+  0.68446024  1.954274    2.47518123]
+Improve the extracted neuron number 7
+4.212036548999929
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 4.6767922867729794e-11 1000000.0
+Compare 0.0006843994447081059 4.6767922867729794e-11
+soln [-0.02775195  0.68222654 -0.00760553  0.04434197  0.05199593  0.3532563
+ -0.26811429 -0.13642527  0.0208221   0.01520287  0.18299262  0.02936505
+ -0.34027911  0.48901894  0.22416472]
+Improve the extracted neuron number 8
+32.96812653349572
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 99 critical points
+ITERATION 0 OF 100
+quality 8.549250196665525e-11 1000000.0
+Compare 0.006701885951770237 8.549250196665525e-11
+soln [-0.01340198 -0.48015659 -0.01973017 -0.08422726 -0.12000589 -0.781025
+  0.06241932  0.00182417 -0.11095117  0.036114   -0.20343476 -0.04272741
+  0.786511   -0.70778387 -0.20753961]
+Improve the extracted neuron number 9
+7.1285053267955
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 4.729372449219227e-11 1000000.0
+Compare 0.0007189400984088934 4.729372449219227e-11
+soln [-0.00525159 -0.61364698 -0.03193672 -0.06193228 -0.06023341  0.23471692
+ -0.10895717  0.0084277  -0.00173426  0.00308618  0.07311596  0.03045687
+  0.1726438  -0.19666655 -0.07037443]
+Improve the extracted neuron number 10
+6.780486497558817
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.3869794202037156e-11 1000000.0
+Compare 0.0009360287215258722 1.3869794202037156e-11
+soln [-0.00652184  0.20950181  0.00797684  0.01050568  0.02930827 -0.07881074
+ -0.05598431  0.00381879 -0.07841479 -0.01229995 -0.09509135 -0.01973594
+ -0.12928866  0.15235102  0.14340407]
+Improve the extracted neuron number 11
+880.3681559992893
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 98 critical points
+ITERATION 0 OF 100
+quality 4.501998773775995e-11 1000000.0
+Compare 1.3205349000636488 4.501998773775995e-11
+soln [ 0.00178181  0.11256218 -0.01539312 -0.01185281  0.02244598  0.35547615
+  0.24589823 -0.02518705 -0.04723169 -0.01571629 -0.10593538  0.03081308
+  0.28167683 -0.0820966   0.21458476]
+Improve the extracted neuron number 12
+6.111732580878941
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 4.865796654485166e-11 1000000.0
+Compare 0.0008362786052202864 4.865796654485166e-11
+soln [ 0.01613509 -0.47679785 -0.0346153  -0.01152726 -0.05294883  0.16683019
+ -0.18469992 -0.01142929 -0.09029213 -0.00483817 -0.04634884  0.01048742
+  0.13910382 -0.02871542  0.24938113]
+Improve the extracted neuron number 13
+8.903031477143594
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 93 critical points
+ITERATION 0 OF 100
+quality 1.368789526168257e-10 1000000.0
+Compare 0.0007701854492552229 8.185452315956354e-11
+soln [ 0.04646641  1.24721463 -0.16104559  0.14084071  0.21142868  4.23507609
+  0.01652712 -0.28225052  0.28253131  0.01556951  0.05186872 -0.07400068
+ -0.02281178  0.8784086  -0.15445897]
+Improve the extracted neuron number 14
+6.655653545108054
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 84 critical points
+ITERATION 0 OF 100
+quality 8.93578544491902e-11 1000000.0
+Compare 0.0005286529908516968 8.93578544491902e-11
+soln [ 0.0210073   2.52988473  0.04453168  0.0854363   0.10228117 -1.34433224
+  1.03872072 -0.06070917  0.52936832  0.0221948   0.14261681  0.13584775
+  0.28548247  1.02324365  1.5817525 ]
+HAVE [[-9.26243751e-02 -1.42651492e-03 -3.19806707e-02 -4.54433995e-03
+  -1.64236623e-01 -3.45559457e-02 -4.36105754e-02 -2.77519465e-02
+  -1.34019804e-02 -5.25158795e-03 -6.52184189e-03  1.78181376e-03
+   1.61350937e-02  4.64664129e-02  2.10073006e-02]
+ [ 1.38013889e+00  1.16336205e-01 -2.77785386e-01 -6.98242873e-01
+   1.02524503e+00 -8.41960878e-01 -1.94491907e+00  6.82226536e-01
+  -4.80156590e-01 -6.13646981e-01  2.09501807e-01  1.12562183e-01
+  -4.76797848e-01  1.24721463e+00  2.52988473e+00]
+ [-3.32203048e-01  3.63838368e-04  2.85335440e-02  1.77527995e-02
+  -3.56380616e-01 -4.53165343e-02  4.46254023e-01 -7.60553143e-03
+  -1.97301710e-02 -3.19367233e-02  7.97684199e-03 -1.53931174e-02
+  -3.46153039e-02 -1.61045594e-01  4.45316778e-02]
+ [-2.68245367e-01 -1.09409678e-02  3.69192480e-02  4.34054819e-03
+   3.21068530e-01 -8.82420073e-02  7.25933837e-02  4.43419690e-02
+  -8.42272612e-02 -6.19322792e-02  1.05056753e-02 -1.18528110e-02
+  -1.15272620e-02  1.40840712e-01  8.54363037e-02]
+ [ 1.58032788e-01  3.09599855e-02 -8.78239771e-02 -3.05443953e-01
+  -2.39884888e-01 -7.79470637e-02  1.45072574e-01  5.19959339e-02
+  -1.20005889e-01 -6.02334087e-02  2.93082697e-02  2.24459811e-02
+  -5.29488255e-02  2.11428681e-01  1.02281174e-01]
+ [-6.15614187e-01 -2.01509095e-01 -8.14907854e-02 -3.22036665e-01
+   4.05253558e+00 -6.11231282e-01  1.68145511e-02  3.53256298e-01
+  -7.81024998e-01  2.34716921e-01 -7.88107420e-02  3.55476154e-01
+   1.66830194e-01  4.23507609e+00 -1.34433224e+00]
+ [ 6.46276346e-01  3.81738964e-01 -3.42212806e-01  2.65988013e-01
+   2.01371342e+00  2.62502904e-01  2.65383973e+00 -2.68114290e-01
+   6.24193200e-02 -1.08957170e-01 -5.59843142e-02  2.45898226e-01
+  -1.84699923e-01  1.65271168e-02  1.03872072e+00]
+ [ 1.15058013e-02 -8.93853917e-02  1.75757409e-01  2.10157842e-02
+  -1.03234210e+00 -1.06181901e-01 -2.12448857e-01 -1.36425270e-01
+   1.82417155e-03  8.42770152e-03  3.81879022e-03 -2.51870549e-02
+  -1.14292867e-02 -2.82250521e-01 -6.07091707e-02]
+ [-2.83941825e-01  1.00321167e-01  1.69815591e-02  2.47866083e-01
+  -1.45564357e+00  3.45927194e-02  7.23270997e-01  2.08220966e-02
+  -1.10951167e-01 -1.73425619e-03 -7.84147882e-02 -4.72316925e-02
+  -9.02921345e-02  2.82531308e-01  5.29368317e-01]
+ [ 6.28188728e-03  8.72731030e-03 -1.60360891e-02  1.54085289e-02
+   1.22652826e-01  4.27733631e-02 -1.73406795e-02  1.52028658e-02
+   3.61140034e-02  3.08618183e-03 -1.22999498e-02 -1.57162917e-02
+  -4.83817467e-03  1.55695097e-02  2.21947997e-02]
+ [-1.41545914e+00 -1.23076704e-01  7.17220251e-02  1.13119798e-01
+  -1.06374094e+00 -8.06923687e-02  7.66848179e-03  1.82992623e-01
+  -2.03434759e-01  7.31159645e-02 -9.50913508e-02 -1.05935377e-01
+  -4.63488372e-02  5.18687209e-02  1.42616814e-01]
+ [ 1.44113602e-01 -1.96062607e-02  1.09886427e-01  1.39110764e-02
+   1.01420408e-01 -5.01673141e-02  1.13003972e-01  2.93650491e-02
+  -4.27274089e-02  3.04568661e-02 -1.97359350e-02  3.08130754e-02
+   1.04874244e-02 -7.40006848e-02  1.35847747e-01]
+ [ 3.97401998e+00 -2.64902024e-01  4.83047057e-02  4.93616597e-01
+   5.03901597e-01  3.08339063e-01  6.84460239e-01 -3.40279105e-01
+   7.86510999e-01  1.72643797e-01 -1.29288660e-01  2.81676830e-01
+   1.39103820e-01 -2.28117828e-02  2.85482468e-01]
+ [-2.88288532e-01  2.24853655e-01  9.34242231e-01 -6.99444742e-01
+  -2.34073299e+00 -2.21214307e-01  1.95427400e+00  4.89018936e-01
+  -7.07783869e-01 -1.96666554e-01  1.52351021e-01 -8.20965960e-02
+  -2.87154214e-02  8.78408595e-01  1.02324365e+00]
+ [-2.05332684e+00 -3.85435896e-02  7.83283999e-02  2.54850566e-01
+   4.44186032e+00  6.91313876e-02  2.47518123e+00  2.24164717e-01
+  -2.07539612e-01 -7.03744306e-02  1.43404071e-01  2.14584763e-01
+   2.49381126e-01 -1.54458967e-01  1.58175250e+00]] [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]
+Query count 0
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 13 with error 0.978025036172023 ratio -0.036978391705063486
+Bias check -0.09212961956670632
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 3.7053 1.7897 1.3162 2.6124 1.5333 1.5361 1.6285 2.4513 1.1179 1.1488 0.9766 1.0174 1.3866 0.9565 1.2123
+	  Got: 1.0000 -14.9004 3.5866 2.8961 -1.7062 6.6464 -6.9774 -0.1242 3.0655 -0.0678 15.2817 -1.5559 -42.9047 3.1124 22.1683
+	 Real: 1.0000 0.3863 1.3364 -0.4423 1.7665 0.8327 -0.9223 0.4927 1.4011 -0.6691 -0.6539 -0.4758 0.5712 -0.0967 -0.7693
+Neuron 1 maps on to neuron 3 with error 0.9911060735628349 ratio 0.22519814191821713
+Bias check 0.21218002090666194
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0185 1.9328 1.5602 0.9823 1.0957 1.0022 1.5121 1.1525 1.0844 1.1359 1.2475 1.0911 1.1551 1.5365 1.0325
+	  Got: 1.0000 -81.5527 -0.2551 7.6697 -21.7032 141.2597 -267.6025 62.6600 -70.3261 -6.1179 86.2779 13.7442 185.6987 -157.6245 27.0194
+	 Real: 1.0000 -1.2435 1.7284 -0.2834 1.4674 -1.4730 2.0186 1.4842 0.2500 0.7978 1.4107 1.3496 -1.6337 -2.3220 0.8082
+Neuron 2 maps on to neuron 2 with error 0.8185413991815136 ratio -0.4428991109467872
+Bias check -0.47960749942435105
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9995 1.0407 0.6700 2.3947 1.0337 1.7381 0.8644 1.0152 2.2438 11.4249 1.8113 6.8321 0.9582 1.1545 1.0327
+	  Got: 1.0000 8.6860 -0.8922 -1.1544 2.7462 2.5481 10.7006 -5.4957 -0.5310 0.5014 -2.2427 -3.4360 -1.5104 -29.2127 -2.4492
+	 Real: 1.0000 -2.6517 1.7411 -0.0203 -1.2617 1.7175 -0.5156 1.2680 -1.8044 -0.7115 -0.9715 0.4988 0.1258 2.2786 0.2081
+Neuron 3 maps on to neuron 0 with error 0.971400103415177 ratio -0.20535815162969312
+Bias check -0.22210562071216783
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9436 1.2546 1.1594 0.9864 1.8794 1.3130 1.0736 1.2704 0.9916 0.9476 1.3258 2.5989 4.0250 1.7893 1.1223
+	  Got: 1.0000 153.6511 -3.9066 -0.9552 67.2142 70.8654 -58.5317 -4.6246 -54.5439 -3.3907 -24.8925 -3.0612 -108.6223 153.9156 -56.0809
+	 Real: 1.0000 2.6041 2.2554 1.3964 3.1395 4.5105 -4.3612 -2.8561 6.2833 -9.8934 -4.2593 0.2789 -0.5647 0.7551 1.9396
+Neuron 4 maps on to neuron 5 with error 0.8864617548278171 ratio -0.03550005949547909
+Bias check -0.0109269624899926
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0637 0.8376 1.0106 2.4052 0.9632 0.7858 0.9706 0.9990 3.6200 0.9404 0.9883 1.0065 0.8599 1.6463 0.9422
+	  Got: 1.0000 -6.2425 2.1699 -1.9549 1.4606 -24.6750 -12.2610 6.2857 8.8631 -0.7468 6.4769 -0.6175 -3.0681 14.2522 -27.0455
+	 Real: 1.0000 1.0869 -0.9536 -0.5466 -1.4457 1.1620 0.3174 1.4233 -0.5405 0.3282 -0.2257 -0.3438 0.1000 -0.4085 0.7373
+Neuron 5 maps on to neuron 14 with error 0.9176854457328931 ratio -0.2958746690548217
+Bias check -0.3046692449844634
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.8731 0.9899 1.4654 0.8942 1.0570 1.9224 1.9486 0.9992 1.0332 0.9764 3.1587 0.9734 0.9914 0.9619 0.8421
+	  Got: 1.0000 24.3652 1.3114 2.5536 2.2557 17.6882 -7.5965 3.0728 -1.0011 -1.2378 2.3351 1.4518 -8.9229 6.4016 -2.0006
+	 Real: 1.0000 3.1984 0.0188 4.3211 -0.4349 0.7699 -1.4954 0.0184 2.2570 0.5784 1.4650 0.5742 -0.6671 -0.9396 2.3190
+Neuron 6 maps on to neuron 10 with error 0.9355624446257508 ratio -0.08595614824421384
+Bias check -0.10574119854695775
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.6591 1.6370 0.9576 0.9683 3.0483 10.1521 1.6981 1.0588 0.9457 1.2839 0.8753 0.9582 1.0740 0.9650 0.9859
+	  Got: 1.0000 44.5974 -10.2327 -1.6646 -3.3265 -0.3856 -60.8531 4.8715 -16.5848 0.3976 -0.1758 -2.5912 -15.6948 -44.8119 -56.7564
+	 Real: 1.0000 -0.7126 0.4461 0.9884 -2.4166 -0.7813 1.4582 1.5032 -0.2432 0.7001 0.3735 1.5721 1.1907 1.0579 -0.1459
+Neuron 7 maps on to neuron 14 with error 0.8980184399709362 ratio 1.1012050514249774
+Bias check 1.0924104754953357
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9671 1.0852 1.4917 0.8581 1.6573 1.2989 0.9570 0.9925 1.1357 0.9939 0.9940 0.9745 1.7397 2.2416 0.8064
+	  Got: 1.0000 -24.5830 0.2741 -1.5978 -1.8736 -12.7291 9.6611 4.9159 -0.7503 -0.5478 -6.5939 -1.0581 12.2615 -17.6211 -8.0774
+	 Real: 1.0000 3.1984 0.0188 4.3211 -0.4349 0.7699 -1.4954 0.0184 2.2570 0.5784 1.4650 0.5742 -0.6671 -0.9396 2.3190
+Neuron 8 maps on to neuron 10 with error 0.9835113336779643 ratio -0.23466644995452707
+Bias check -0.254451500257271
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 2.4420 1.0031 0.9889 1.5207 1.1058 6.6263 6.3693 0.9696 0.9897 1.1879 0.9673 0.9956 3.1830 1.0513 1.9806
+	  Got: 1.0000 35.8273 1.4722 6.2847 8.9543 58.2768 -4.6575 -0.1361 8.2787 -2.6947 15.1795 3.1881 -58.6862 52.8119 15.4857
+	 Real: 1.0000 -0.7126 0.4461 0.9884 -2.4166 -0.7813 1.4582 1.5032 -0.2432 0.7001 0.3735 1.5721 1.1907 1.0579 -0.1459
+Neuron 9 maps on to neuron 4 with error 0.8895486466339354 ratio 0.5828337575330149
+Bias check 0.5500997024609457
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 2.4611 0.9927 0.9251 1.8576 0.7913 1.3254 2.6192 1.1736 1.0837 1.0390 1.0632 1.0020 1.8151 1.0218 1.2215
+	  Got: 1.0000 116.8498 6.0813 11.7931 11.4696 -44.6945 20.7475 -1.6048 0.3302 -0.5877 -13.9226 -5.7996 -32.8746 37.4490 13.4006
+	 Real: 1.0000 -2.3986 -1.2258 -3.6117 -1.3076 1.6860 -3.9502 1.9626 -3.0361 -2.2749 -0.2320 -0.9824 2.6595 -0.5447 2.5175
+Neuron 10 maps on to neuron 1 with error 0.9622884075829404 ratio 0.9505704461939262
+Bias check 0.9474981208208577
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.9760 0.9260 1.0197 0.9863 0.9977 1.1747 1.0322 0.9505 1.0333 1.2784 0.9736 1.0161 1.1598 1.0703 1.2759
+	  Got: 1.0000 -32.1231 -1.2231 -1.6108 -4.4939 12.0841 8.5841 -0.5855 12.0234 1.8860 14.5804 3.0261 19.8239 -23.3601 -21.9883
+	 Real: 1.0000 2.7041 -2.9090 -3.8450 3.4278 0.6316 0.8783 4.9298 -5.0613 -1.0657 -1.9551 2.8294 -2.7993 -5.0874 4.6368
+Neuron 11 maps on to neuron 12 with error 0.8938036759510029 ratio 0.8518365127435606
+Bias check 0.8420849386072439
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0112 7.7177 0.9972 1.0842 1.0541 0.8384 0.8923 1.0016 0.9671 0.9947 1.2681 1.2334 0.7989 1.0754 1.0284
+	  Got: 1.0000 63.1728 -8.6390 -6.6521 12.5973 199.5024 138.0044 -14.1356 -26.5076 -8.8204 -59.4537 17.2931 158.0843 -46.0747 120.4305
+	 Real: 1.0000 1.0414 0.2912 0.3587 0.4631 0.2671 1.6181 -1.2209 1.3742 0.3392 0.6381 0.5621 0.2673 -0.2234 1.2327
+Neuron 12 maps on to neuron 2 with error 0.8237530845629237 ratio -0.9460296154307758
+Bias check -0.9827380039083397
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0893 5.1937 0.6786 1.9053 1.0489 1.8983 0.9768 1.1072 0.9810 1.0033 1.5170 1.2537 0.9464 1.4802 0.9821
+	  Got: 1.0000 -29.5504 -2.1453 -0.7144 -3.2816 10.3396 -11.4471 -0.7083 -5.5960 -0.2999 -2.8725 0.6500 8.6212 -1.7797 15.4558
+	 Real: 1.0000 -2.6517 1.7411 -0.0203 -1.2617 1.7175 -0.5156 1.2680 -1.8044 -0.7115 -0.9715 0.4988 0.1258 2.2786 0.2081
+Neuron 13 maps on to neuron 3 with error 0.9182875264136707 ratio -0.03142480559488974
+Bias check -0.04444292660644494
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 0.8676 5.1318 25.3365 0.8433 11.7638 1.8958 0.9976 0.9991 1.0348 1.3201 0.9553 0.8917 8.7475 1.1013 0.9585
+	  Got: 1.0000 26.8412 -3.4658 3.0310 4.5501 91.1427 0.3557 -6.0743 6.0803 0.3351 1.1163 -1.5926 -0.4909 18.9042 -3.3241
+	 Real: 1.0000 -1.2435 1.7284 -0.2834 1.4674 -1.4730 2.0186 1.4842 0.2500 0.7978 1.4107 1.3496 -1.6337 -2.3220 0.8082
+Neuron 14 maps on to neuron 2 with error 0.9115295260658529 ratio 0.08442885198449286
+Bias check 0.047720463506929
+ERROR LAYER EXTRACTED INCORRECTLY
+	GAPS: 1.0547 3.3373 0.8309 1.5381 2.4860 2.2426 1.0706 1.3620 0.8915 1.0258 2.0820 1.7663 16.4076 1.1402 0.9214
+	  Got: 1.0000 120.4288 2.1198 4.0670 4.8688 -63.9936 49.4457 -2.8899 25.1993 1.0565 6.7889 6.4667 13.5897 48.7090 75.2954
+	 Real: 1.0000 -2.6517 1.7411 -0.0203 -1.2617 1.7175 -0.5156 1.2680 -1.8044 -0.7115 -0.9715 0.4988 0.1258 2.2786 0.2081
+Solve final two
+Solve final two
+Total query count 95498
+Solving on 101
+K IS 15
+Here before start (101, 15)
+Attempts at solution: 1 out of 32768
+Took 0.7723479270935059 seconds
+std 135.95323549228007
+median 161.51047225144123
+min 2.047594816610098e-11
+recover [ 1  1  1  1  1  1  1  1 -1 -1  1 -1  1 -1  1]
+SAVING /tmp/extracted-10-15-15-1.p
+0
+
+
+
+Finally we are done.
+
+Maximum logit loss on the unit sphere 5.3936854982339355e-12
+
+fin
+Loaded ground-truth model from models/42_10-15-15-1.npz
+Optimizer backend for refine_precision: optax (shim)
+Loaded ground-truth model from models/42_10-15-15-1.npz
+Optimizer backend for refine_precision: optax (shim)

@@ -1,0 +1,348 @@
+Loaded ground-truth model from models/42_10-10-1.npz
+Optimizer backend for refine_precision: optax (shim)
+START EXTRACTION ATTACK
+
+Start running critical point search to find neurons on layer 0
+At this iteration I have 0 critical points
+Gathering 30 critical points
+Start another sweep
+Total intersections found 10
+delta queries 0
+Up to 1 of 30
+Up to 2 of 30
+Up to 3 of 30
+Up to 4 of 30
+Up to 5 of 30
+Up to 6 of 30
+Up to 7 of 30
+Up to 8 of 30
+Up to 9 of 30
+Up to 10 of 30
+Start another sweep
+Total intersections found 10
+delta queries 0
+Up to 11 of 30
+Up to 12 of 30
+Up to 13 of 30
+Up to 14 of 30
+Up to 15 of 30
+Up to 16 of 30
+Up to 17 of 30
+Up to 18 of 30
+Up to 19 of 30
+Up to 20 of 30
+Start another sweep
+Total intersections found 10
+delta queries 0
+Up to 21 of 30
+Up to 22 of 30
+Up to 23 of 30
+Up to 24 of 30
+Up to 25 of 30
+Up to 26 of 30
+Up to 27 of 30
+Up to 28 of 30
+Up to 29 of 30
+Up to 30 of 30
+Query count after that search: 0
+And now up to  30 critical points
+After filtering duplicates we're down to  30 critical points
+Start trying to do the graph solving
+Go up to 1
+0
+0.04935908317565918
+Graph search found 10 different components with the following counts [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+After re-doing the graph, the component counts is 10 with items [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+Processing each connected component in turn.
+
+
+On component 0 with indexs [0, np.int64(28), np.int64(13)]
+The guessed error in the computation is 4.694518697764827e-06 with 3 witnesses
+Normalize on axis 8
+
+
+On component 1 with indexs [1, np.int64(18), np.int64(29)]
+The guessed error in the computation is 5.154266999346513e-06 with 3 witnesses
+Normalize on axis 9
+
+
+On component 2 with indexs [2, np.int64(21), np.int64(14)]
+The guessed error in the computation is 7.294235728538823e-06 with 3 witnesses
+Normalize on axis 6
+
+
+On component 3 with indexs [np.int64(19), 3, np.int64(22)]
+The guessed error in the computation is 6.625623565806316e-06 with 3 witnesses
+Normalize on axis 3
+
+
+On component 4 with indexs [np.int64(26), 4, np.int64(15)]
+The guessed error in the computation is 1.0803496493502762e-05 with 3 witnesses
+Normalize on axis 2
+
+
+On component 5 with indexs [np.int64(10), np.int64(27), 5]
+The guessed error in the computation is 1.5407194559842463e-05 with 3 witnesses
+Normalize on axis 4
+
+
+On component 6 with indexs [np.int64(12), np.int64(20), 6]
+The guessed error in the computation is 4.388746854405712e-06 with 3 witnesses
+Normalize on axis 6
+
+
+On component 7 with indexs [np.int64(16), np.int64(23), 7]
+The guessed error in the computation is 5.013139121545773e-06 with 3 witnesses
+Normalize on axis 5
+
+
+On component 8 with indexs [8, np.int64(17), np.int64(24)]
+The guessed error in the computation is 5.496233370462511e-06 with 3 witnesses
+Normalize on axis 0
+
+
+On component 9 with indexs [9, np.int64(11), np.int64(25)]
+The guessed error in the computation is 9.564205431161765e-06 with 3 witnesses
+Normalize on axis 9
+At this point, we just assume the neuron must be dead
+Successfully returning a solution attempt.
+
+Number of critical points per cluster [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 8 with error 6.530080784467478e-08 ratio -0.17902907446892835
+Bias check [-0.00063108]
+Neuron 1 maps on to neuron 5 with error 4.296491894218735e-08 ratio -0.5273844017402873
+Bias check [-0.00042605]
+Neuron 2 maps on to neuron 9 with error 4.315840740155507e-08 ratio -0.1576235170007754
+Bias check [0.00034685]
+Neuron 3 maps on to neuron 1 with error 4.912814148254749e-08 ratio 0.5140989042017463
+Bias check [0.00557547]
+Neuron 4 maps on to neuron 6 with error 3.8469698490582864e-08 ratio -0.3189598584735772
+Bias check [0.00015898]
+Neuron 5 maps on to neuron 2 with error 4.6714978087385965e-08 ratio -0.07218842156449988
+Bias check [-0.00077814]
+Neuron 6 maps on to neuron 3 with error 8.666652607050331e-08 ratio -0.2935302782259953
+Bias check [0.00193667]
+Neuron 7 maps on to neuron 4 with error 5.746886101862833e-08 ratio 0.26616392728508265
+Bias check [0.00049467]
+Neuron 8 maps on to neuron 7 with error 2.405053912634644e-08 ratio 0.31601393783961956
+Bias check [-0.00010842]
+Neuron 9 maps on to neuron 0 with error 6.920899614796757e-08 ratio 0.0035705465910618726
+Bias check [-0.00303963]
+Improve the extracted neuron number 0
+9.723395688812978
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.2050804798491299e-11 1000000.0
+Compare 0.0035422753463763 1.2050804798491299e-11
+soln [ 1.41933619  3.4279361   0.84761228  5.2847314  -2.21870773 -1.60708392
+ -0.6155392  -0.95247437  1.91416873 -0.32463059]
+Improve the extracted neuron number 1
+5.082379617933577
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 97 critical points
+ITERATION 0 OF 100
+quality 1.2732925824820995e-11 1000000.0
+Compare 0.0007916748530760742 1.2732925824820995e-11
+soln [ 0.60703216  3.02202809 -1.73751567  5.86833789  2.47339627 -4.98995627
+ -5.38264742 -3.65292319  1.69879277  7.20967492]
+Improve the extracted neuron number 2
+15.83971296202845
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 6.421032594516873e-10 1000000.0
+Compare 0.002202197691758556 5.74686964682769e-10
+soln [  3.18327775  -8.83604958  -3.23969497   1.15541143 -11.25129491
+   5.54051576  -3.34861948 -12.63326721   2.59046631  -1.26257956]
+Improve the extracted neuron number 3
+3.5224921750387272
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 89 critical points
+ITERATION 0 OF 100
+quality 2.3646862246096134e-11 1000000.0
+Compare 0.010849733190504196 2.3646862246096134e-11
+soln [ 0.6729533  -1.15152873 -0.61389245  7.32066653  0.4050633  -2.70466508
+ -1.16582235  6.53700666  1.46632684  3.74906586]
+Improve the extracted neuron number 4
+6.616531496396418
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.4551915228366852e-11 1000000.0
+Compare 0.0005074631513224404 1.4551915228366852e-11
+soln [-29.52630839  17.92699913  17.30175253  -4.17712666   8.05142989
+  10.83809237   4.2231773   -1.04380558 -17.50003248  -3.88886481]
+Improve the extracted neuron number 5
+20.117171049812008
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 98 critical points
+ITERATION 0 OF 100
+quality 2.162892087653745e-11 1000000.0
+Compare 0.010767251468678296 2.162892087653745e-11
+soln [ 3.02075515  0.4000824  -0.28752652  0.46088557 -0.99042021 -2.97024957
+ -4.05896993  0.20142329  5.38077241 -2.15336961]
+Improve the extracted neuron number 6
+10.839582840912053
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 94 critical points
+ITERATION 0 OF 100
+quality 7.275957614183426e-12 1000000.0
+Compare 0.006583815998340015 7.275957614183426e-12
+soln [ 6.24023161 -7.01873944 -7.16394503 -3.81187621 -1.908517    1.5081365
+ -3.85932368  6.15232277 -2.40691099 -1.76345501]
+Improve the extracted neuron number 7
+12.479100440050797
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 5.184119800105691e-11 1000000.0
+Compare 0.00194277607516824 5.184119800105691e-11
+soln [ -1.40035659  -7.7796409   -3.83630696   3.95924683  -6.97129098
+   4.15457607   4.71326058 -12.30974758  -5.00160722  -1.71933475]
+Improve the extracted neuron number 8
+7.016130099006631
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 100 critical points
+ITERATION 0 OF 100
+quality 1.8189894035458565e-11 1000000.0
+Compare 0.00034925115066641865 1.8189894035458565e-11
+soln [-3.32649875 -0.86714678 -2.38376493  7.3842202  -4.61683418  0.63075516
+ -2.74851593  0.47117692 -0.86371775 -0.04651795]
+Improve the extracted neuron number 9
+317.2898370152851
+Gather some more actual critical points on the plane
+On this iteration I have  0 critical points on the plane
+Finished with a total of 88 critical points
+ITERATION 0 OF 100
+quality 2.6147972675971687e-12 1000000.0
+Compare 0.8505341693089576 2.6147972675971687e-12
+soln [ 1.32124622 -1.12715006  3.58099951 -1.06738896  1.39932043  0.55501636
+ -0.73280651  0.78013186 -0.26796513  0.03424723]
+HAVE [[  1.41933619   0.60703216   3.18327775   0.6729533  -29.52630839
+    3.02075515   6.24023161  -1.40035659  -3.32649875   1.32124622]
+ [  3.4279361    3.02202809  -8.83604958  -1.15152873  17.92699913
+    0.4000824   -7.01873944  -7.7796409   -0.86714678  -1.12715006]
+ [  0.84761228  -1.73751567  -3.23969497  -0.61389245  17.30175253
+   -0.28752652  -7.16394503  -3.83630696  -2.38376493   3.58099951]
+ [  5.2847314    5.86833789   1.15541143   7.32066653  -4.17712666
+    0.46088557  -3.81187621   3.95924683   7.3842202   -1.06738896]
+ [ -2.21870773   2.47339627 -11.25129491   0.4050633    8.05142989
+   -0.99042021  -1.908517    -6.97129098  -4.61683418   1.39932043]
+ [ -1.60708392  -4.98995627   5.54051576  -2.70466508  10.83809237
+   -2.97024957   1.5081365    4.15457607   0.63075516   0.55501636]
+ [ -0.6155392   -5.38264742  -3.34861948  -1.16582235   4.2231773
+   -4.05896993  -3.85932368   4.71326058  -2.74851593  -0.73280651]
+ [ -0.95247437  -3.65292319 -12.63326721   6.53700666  -1.04380558
+    0.20142329   6.15232277 -12.30974758   0.47117692   0.78013186]
+ [  1.91416873   1.69879277   2.59046631   1.46632684 -17.50003248
+    5.38077241  -2.40691099  -5.00160722  -0.86371775  -0.26796513]
+ [ -0.32463059   7.20967492  -1.26257956   3.74906586  -3.88886481
+   -2.15336961  -1.76345501  -1.71933475  -0.04651795   0.03424723]] [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1]
+Query count 0
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 8 with error 1.8016009399065126e-15 ratio -0.09352836012830555
+Bias check 9.715839244250901e-14
+Neuron 1 maps on to neuron 5 with error 1.174500892178356e-15 ratio -0.07314953953049602
+Bias check -2.187694470023871e-13
+Neuron 2 maps on to neuron 9 with error 4.3781965170828015e-14 ratio 0.047071188700819416
+Bias check 1.2541218064043846e-11
+Neuron 3 maps on to neuron 1 with error 3.438443281311542e-15 ratio 0.07022569328517553
+Bias check -2.897126982759346e-13
+Neuron 4 maps on to neuron 6 with error 6.505737923526133e-16 ratio -0.018435118719928426
+Bias check 6.9909356081865326e-15
+Neuron 5 maps on to neuron 2 with error 3.698666722855332e-15 ratio 0.07288665324436895
+Bias check -1.2644052471699752e-13
+Neuron 6 maps on to neuron 3 with error 8.1014741631179545e-16 ratio 0.07605744153272231
+Bias check 1.1046719095020308e-13
+Neuron 7 maps on to neuron 4 with error 4.267967447428625e-15 ratio 0.06406524777239439
+Bias check -1.7297552279416095e-12
+Neuron 8 maps on to neuron 7 with error 2.2101052852213047e-15 ratio -0.09499896317793738
+Bias check -7.332467966136846e-13
+Neuron 9 maps on to neuron 0 with error 6.146283397317335e-16 ratio 0.10425821691727763
+Bias check -2.3717139363554907e-13
+Solve the extraction problem for contractive networks
+Confirm preimage
+[[0.10227767]] [[0.10227767]] [[0.41405279]]
+One of these should be small 3.287647931671245e-14 0.3117751186569726
+Confirm preimage
+[[0.10227767]] [[0.10227767]] [[0.45818968]]
+One of these should be small 5.134781488891349e-16 0.3559120082273254
+Confirm preimage
+[[0.10227767]] [[0.09720298]] [[0.10227767]]
+One of these should be small 0.005074693297813168 1.3232470674751085e-13
+Confirm preimage
+[[0.10227767]] [[-0.15680992]] [[0.10227767]]
+One of these should be small 0.2590875932861628 6.591949208711867e-15
+Confirm preimage
+[[0.10227767]] [[0.10227767]] [[0.44946164]]
+One of these should be small 1.1782241848834474e-14 0.34718396600360435
+Confirm preimage
+[[0.10227767]] [[-0.08673399]] [[0.10227767]]
+One of these should be small 0.1890116609573527 7.174816296640074e-15
+Confirm preimage
+[[0.10227767]] [[-0.46527485]] [[0.10227767]]
+One of these should be small 0.5675525252407976 7.958911307781591e-14
+Confirm preimage
+[[0.10227767]] [[0.01918567]] [[0.10227767]]
+One of these should be small 0.08309199953198586 2.886579864025407e-15
+Confirm preimage
+[[0.10227767]] [[0.10227767]] [[0.3593356]]
+One of these should be small 1.033895191682177e-14 0.2570579278979758
+Confirm preimage
+[[0.10227767]] [[-1.28684286]] [[0.10227767]]
+One of these should be small 1.3891205364778791 5.370703881624195e-15
+Extracted [-1, -1, 1, 1, -1, 1, 1, 1, -1, 1]
+real sign [1 1 1 1 1 1 1 1 1 1]
+Total query count 0
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 8 with error 1.8016009399065126e-15 ratio 0.09352836012830555
+Bias check 9.715839244250901e-14
+Neuron 1 maps on to neuron 5 with error 1.174500892178356e-15 ratio 0.07314953953049602
+Bias check -2.187694470023871e-13
+Neuron 2 maps on to neuron 9 with error 4.3781965170828015e-14 ratio 0.047071188700819416
+Bias check 1.2541218064043846e-11
+Neuron 3 maps on to neuron 1 with error 3.438443281311542e-15 ratio 0.07022569328517553
+Bias check -2.897126982759346e-13
+Neuron 4 maps on to neuron 6 with error 6.505737923526133e-16 ratio 0.018435118719928426
+Bias check 6.9909356081865326e-15
+Neuron 5 maps on to neuron 2 with error 3.698666722855332e-15 ratio 0.07288665324436895
+Bias check -1.2644052471699752e-13
+Neuron 6 maps on to neuron 3 with error 8.1014741631179545e-16 ratio 0.07605744153272231
+Bias check 1.1046719095020308e-13
+Neuron 7 maps on to neuron 4 with error 4.267967447428625e-15 ratio 0.06406524777239439
+Bias check -1.7297552279416095e-12
+Neuron 8 maps on to neuron 7 with error 2.2101052852213047e-15 ratio 0.09499896317793738
+Bias check -7.332467966136846e-13
+Neuron 9 maps on to neuron 0 with error 6.146283397317335e-16 ratio 0.10425821691727763
+Bias check -2.3717139363554907e-13
+Just solve final layer
+SAVING /tmp/extracted-10-10-1.p
+0
+
+
+
+Finally we are done.
+
+Maximum logit loss on the unit sphere 5.042410933242536e-12
+
+fin
+Loaded ground-truth model from models/42_10-10-1.npz
+Optimizer backend for refine_precision: optax (shim)
+Loaded ground-truth model from models/42_10-10-1.npz
+Optimizer backend for refine_precision: optax (shim)
+Loaded ground-truth model from models/42_10-10-1.npz
+Optimizer backend for refine_precision: optax (shim)
