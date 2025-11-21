@@ -1,0 +1,75 @@
+import numpy as np
+import random
+from art.attacks import HopSkipJump  # ART for hard-label boundary sampling
+from art.estimators.classification import KerasClassifier
+import foolbox as fb  # Foolbox for boundary attacks
+import tensorflow as tf  # TensorFlow for the neural network model
+
+# Neural network model simulation (updated with KerasClassifier for ART compatibility)
+class SimpleNN:
+    def __init__(self, input_size, hidden_layer_size, output_size):
+        self.model = self.build_model(input_size, hidden_layer_size, output_size)
+    
+    def build_model(self, input_size, hidden_layer_size, output_size):
+        model = tf.keras.Sequential([
+            tf.keras.layers.Dense(hidden_layer_size, activation='relu', input_dim=input_size),
+            tf.keras.layers.Dense(hidden_layer_size, activation='relu'),
+            tf.keras.layers.Dense(output_size, activation='softmax')  # Output layer with softmax
+        ])
+        model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+        return model
+
+    def predict(self, x):
+        return np.argmax(self.model.predict(x), axis=-1)
+
+# Helper function to query the network
+def query_network(nn, x):
+    return nn.predict(x)
+
+# Boundary Attack Sample using HopSkipJump from ART (hard-label attack)
+def boundary_attack_sample(nn, x0, x1):
+    attack = HopSkipJump(classifier=nn)
+    boundary_points = attack.generate(x0)  # Generate decision boundary points between x0 and x1
+    return boundary_points
+
+def generate_constraints(boundary_points):
+    constraints = []
+    for point in boundary_points:
+        # Convert class changes across boundary points into constraints (linear equations)
+        constraints.append(point)  # Placeholder for actual constraints
+    return constraints
+
+def signature_recovery(constraints):
+    # Recover neuron signatures using the polynomial-time method
+    signatures = np.random.rand(len(constraints))  # Placeholder for actual signature recovery
+    return signatures
+
+def sign_recovery(signatures):
+    # Recover neuron signs using polynomial-time methods (e.g., based on dual points)
+    signs = np.sign(signatures)  # Placeholder
+    return signs
+
+def compare_models(original_model, recovered_model):
+    # Use ReLU network verifiers like Marabou to verify functional equivalence
+    # Placeholder for verification logic (use ART, Foolbox, or Marabou)
+    pass
+
+# Main script
+if __name__ == "__main__":
+    # Initialize the neural network model (replace with actual model or simulation)
+    nn = SimpleNN(input_size=10, hidden_layer_size=10, output_size=1)
+    
+    # Generate boundary points for the hard-label attack
+    x0 = np.random.rand(1, 10)  # Random input 1 (10-dimensional)
+    x1 = np.random.rand(1, 10)  # Random input 2 (10-dimensional)
+    boundary_points = boundary_attack_sample(nn, x0, x1)
+    
+    # Generate constraints based on boundary points
+    constraints = generate_constraints(boundary_points)
+    
+    # Recover signatures and signs from the constraints
+    signatures = signature_recovery(constraints)
+    signs = sign_recovery(signatures)
+    
+    # Optionally compare recovered model with original using verification tools
+    compare_models(nn, nn)  # Placeholder for comparison logic
