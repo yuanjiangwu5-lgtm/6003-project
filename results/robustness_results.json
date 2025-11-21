@@ -1,0 +1,62 @@
+{
+  "baseline_robustness": [
+    {
+      "noise_level": 0,
+      "success": true,
+      "queries": 200,
+      "time": 0.0005673999985447153,
+      "neurons_recovered": 10
+    },
+    {
+      "noise_level": 0.01,
+      "success": true,
+      "queries": 200,
+      "time": 0.00037480000173673034,
+      "neurons_recovered": 10
+    },
+    {
+      "noise_level": 0.05,
+      "success": true,
+      "queries": 200,
+      "time": 0.00032449999707750976,
+      "neurons_recovered": 10
+    },
+    {
+      "noise_level": 0.1,
+      "success": true,
+      "queries": 200,
+      "time": 0.0003652000013971701,
+      "neurons_recovered": 10
+    }
+  ],
+  "module2_robustness": [
+    {
+      "noise_level": 0,
+      "success": true,
+      "queries": 130,
+      "time": 1.8379270000004908,
+      "neurons_recovered": 10
+    },
+    {
+      "noise_level": 0.01,
+      "success": true,
+      "queries": 130,
+      "time": 0.16649499999766704,
+      "neurons_recovered": 10
+    },
+    {
+      "noise_level": 0.05,
+      "success": true,
+      "queries": 130,
+      "time": 0.16869609999412205,
+      "neurons_recovered": 10
+    },
+    {
+      "noise_level": 0.1,
+      "success": true,
+      "queries": 130,
+      "time": 0.15619259999948554,
+      "neurons_recovered": 10
+    }
+  ]
+}

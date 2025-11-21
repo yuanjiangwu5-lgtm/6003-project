@@ -1,0 +1,25 @@
+Compute the matrix alignment for the SVD upper bound
+Finished alignment. Now compute the max error in the matrix.
+Matrix diff 1.5682767584568325e-13
+Bias diff 1.6090913323996148e-11
+Matrix diff 3.988302743618277e-14
+Bias diff 4.3436365615434624e-12
+Number of bits of precision in the weight matrix 36.21453156726264
+
+Computing SVD upper bound
+	At layer 0 loss is bounded by 1.2962623583734951e-11
+	At layer 1 loss is bounded by 3.753731839108582e-11
+Upper bound on number of bits of precision in the output through SVD 34.63288345384972
+
+Finally estimate it through random samples to make sure we haven't made a mistake
+Iter 0/100
+Iter 10/100
+Iter 20/100
+Iter 30/100
+Iter 40/100
+Iter 50/100
+Iter 60/100
+Iter 70/100
+Iter 80/100
+Iter 90/100
+Fewest number of bits of precision over 10000000 random samples: 37.51634164829387

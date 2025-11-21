@@ -1,0 +1,1 @@
+﻿from module2_integration import run_module2_extraction
